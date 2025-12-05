@@ -79,6 +79,8 @@ async def filter(minimumProfit):
                 totalBuyOrders += 1
         if totalBuyOrders > 200:
             filtered_list.append(a)
+        ## need to add a wait function so that we dont overload the api and kill everything.
+        # I swear to god if you run this without adding the pause, i will unironically jump you uriel
     return filtered_list
 
 
