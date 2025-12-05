@@ -1,6 +1,7 @@
 import requests
 import json
 import asyncio
+import time
 import firebase_admin
 from firebase_admin import credentials, app_check
 
@@ -58,14 +59,14 @@ async def CreatingCache():
     return Chosen_list
 
 async def filter(minimumProfit):
-    Chosen_List = await CreatingCache
+    Chosen_List = await CreatingCache()
     filtered_list = []
     totalBuyOrders = 0
     for a in Chosen_List:
          #By most recent profit margins.
         # url = BASE_URL + "orders/items/" + a + "/top"
         # response = requests.get(url) # need to add rank specification: will do when i can get the code to actually run :sob:
-        # data = response.json["data"]
+        # data = response.json()["data"]
         # # ProfitMargin = data [0]["buy"]["platinum"] - data[0]["sell"]["platinum"]
         # if ProfitMargin > minimumProfit:
         #     filtered_list.append(a)
@@ -73,12 +74,13 @@ async def filter(minimumProfit):
         #By trade volume
         url = BASE_URL + "orders/items" + a 
         response = requests.get(url)
-        data = response.json["data"]
+        data = response.json()["data"]
         for a in data:
             if a["type"] == "buy":
                 totalBuyOrders += 1
         if totalBuyOrders > 200:
             filtered_list.append(a)
+		time.sleep(0.334)
         ## need to add a wait function so that we dont overload the api and kill everything.
         # I swear to god if you run this without adding the pause, i will unironically jump you uriel
     return filtered_list
