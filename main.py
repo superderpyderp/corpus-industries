@@ -54,8 +54,32 @@ async def CreatingCache():
                 # if not(a["slug"] in Chosen_list):
                     Chosen_list.append(a["slug"])        
                     break
-    Chosen_list.append(len(Chosen_list))
+    # Chosen_list.append(len(Chosen_list))
     return Chosen_list
+
+async def filter(minimumProfit):
+    Chosen_List = await CreatingCache
+    filtered_list = []
+    totalBuyOrders = 0
+    for a in Chosen_List:
+         #By most recent profit margins.
+        # url = BASE_URL + "orders/items/" + a + "/top"
+        # response = requests.get(url) # need to add rank specification: will do when i can get the code to actually run :sob:
+        # data = response.json["data"]
+        # # ProfitMargin = data [0]["buy"]["platinum"] - data[0]["sell"]["platinum"]
+        # if ProfitMargin > minimumProfit:
+        #     filtered_list.append(a)
+
+        #By trade volume
+        url = BASE_URL + "orders/items" + a 
+        response = requests.get(url)
+        data = response.json["data"]
+        for a in data:
+            if a["type"] == "buy":
+                totalBuyOrders += 1
+        if totalBuyOrders > 200:
+            filtered_list.append(a)
+    return filtered_list
 
 
 
@@ -63,6 +87,6 @@ async def CreatingCache():
 async def main():
     if __name__ == "__main__":
         await place_order()
-        sigmas = await CreatingCache()
+        sigmas = await filter()
         print(sigmas)
 asyncio.run(main())
