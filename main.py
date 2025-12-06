@@ -10,7 +10,7 @@ import os
 
 
 async def main():
-    await PlatStats()
+    await volume_check()
 
 if __name__ == "__main__":
     asyncio.run(main())
