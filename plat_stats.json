@@ -1,0 +1,2772 @@
+{
+    "secura_dual_cestra": {
+        "PlatStats": {
+            "MinPlatBuy": 10,
+            "MinPlatSale": 40,
+            "MinProfitMargin": 30,
+            "AvgPlatBuy": 10.0,
+            "AvgPlatSale": 45.4,
+            "AvgProfitMargin": 35.4
+        }
+    },
+    "telos_boltor": {
+        "PlatStats": {
+            "MinPlatBuy": 20,
+            "MinPlatSale": 35,
+            "MinProfitMargin": 15,
+            "AvgPlatBuy": 20.0,
+            "AvgPlatSale": 55.4,
+            "AvgProfitMargin": 35.4
+        }
+    },
+    "frost_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 81,
+            "MinPlatSale": 89,
+            "MinProfitMargin": 8,
+            "AvgPlatBuy": 78.4,
+            "AvgPlatSale": 89.6,
+            "AvgProfitMargin": 11.199999999999989
+        }
+    },
+    "hydroid_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 82,
+            "MinPlatSale": 89,
+            "MinProfitMargin": 7,
+            "AvgPlatBuy": 80.0,
+            "AvgPlatSale": 92.4,
+            "AvgProfitMargin": 12.400000000000006
+        }
+    },
+    "virtuos_strike": {
+        "PlatStats": {
+            "MinPlatBuy": 10,
+            "MinPlatSale": 4,
+            "MinProfitMargin": -6,
+            "AvgPlatBuy": 8.333333333333334,
+            "AvgPlatSale": 10.8,
+            "AvgProfitMargin": 2.466666666666667
+        }
+    },
+    "akjagara_prime_receiver": {
+        "PlatStats": {
+            "MinPlatBuy": 6,
+            "MinPlatSale": 10,
+            "MinProfitMargin": 4,
+            "AvgPlatBuy": 5.25,
+            "AvgPlatSale": 14.6,
+            "AvgProfitMargin": 9.35
+        }
+    },
+    "wyrm_prime_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 6,
+            "MinPlatSale": 10,
+            "MinProfitMargin": 4,
+            "AvgPlatBuy": 5.0,
+            "AvgPlatSale": 19.6,
+            "AvgProfitMargin": 14.600000000000001
+        }
+    },
+    "blind_rage": {
+        "PlatStats": {
+            "MinPlatBuy": 55,
+            "MinPlatSale": 13,
+            "MinProfitMargin": -42,
+            "AvgPlatBuy": 55.0,
+            "AvgPlatSale": 14.6,
+            "AvgProfitMargin": -40.4
+        }
+    },
+    "loki_prime_systems_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 20,
+            "MinPlatSale": 28,
+            "MinProfitMargin": 8,
+            "AvgPlatBuy": 16.8,
+            "AvgPlatSale": 29.4,
+            "AvgProfitMargin": 12.599999999999998
+        }
+    },
+    "primed_point_blank": {
+        "PlatStats": {
+            "MinPlatBuy": 80,
+            "MinPlatSale": 39,
+            "MinProfitMargin": -41,
+            "AvgPlatBuy": 79.0,
+            "AvgPlatSale": 46.0,
+            "AvgProfitMargin": -33.0
+        }
+    },
+    "rhino_prime_neuroptics_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 8,
+            "MinPlatSale": 17,
+            "MinProfitMargin": 9,
+            "AvgPlatBuy": 6.5,
+            "AvgPlatSale": 18.6,
+            "AvgProfitMargin": 12.100000000000001
+        }
+    },
+    "thermite_rounds": {
+        "PlatStats": {
+            "MinPlatBuy": 6,
+            "MinPlatSale": 14,
+            "MinProfitMargin": 8,
+            "AvgPlatBuy": 3.4,
+            "AvgPlatSale": 14.2,
+            "AvgProfitMargin": 10.799999999999999
+        }
+    },
+    "oberon_prime_neuroptics_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 26,
+            "MinPlatSale": 35,
+            "MinProfitMargin": 9,
+            "AvgPlatBuy": 15.6,
+            "AvgPlatSale": 39.0,
+            "AvgProfitMargin": 23.4
+        }
+    },
+    "volt_prime_neuroptics_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 15,
+            "MinPlatSale": 17,
+            "MinProfitMargin": 2,
+            "AvgPlatBuy": 12.8,
+            "AvgPlatSale": 19.2,
+            "AvgProfitMargin": 6.399999999999999
+        }
+    },
+    "volt_prime_chassis_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 5,
+            "MinPlatSale": 7,
+            "MinProfitMargin": 2,
+            "AvgPlatBuy": 4.666666666666667,
+            "AvgPlatSale": 7.6,
+            "AvgProfitMargin": 2.9333333333333327
+        }
+    },
+    "wukong_prime_neuroptics_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 5,
+            "MinPlatSale": 5,
+            "MinProfitMargin": 0,
+            "AvgPlatBuy": 4.25,
+            "AvgPlatSale": 5.8,
+            "AvgProfitMargin": 1.5499999999999998
+        }
+    },
+    "ember_prime_neuroptics_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 10,
+            "MinPlatSale": 18,
+            "MinProfitMargin": 8,
+            "AvgPlatBuy": 10.0,
+            "AvgPlatSale": 20.0,
+            "AvgProfitMargin": 10.0
+        }
+    },
+    "hammer_shot": {
+        "PlatStats": {
+            "MinPlatBuy": 84,
+            "MinPlatSale": 100,
+            "MinProfitMargin": 16,
+            "AvgPlatBuy": 84.0,
+            "AvgPlatSale": 106.6,
+            "AvgProfitMargin": 22.599999999999994
+        }
+    },
+    "primed_shotgun_ammo_mutation": {
+        "PlatStats": {
+            "MinPlatBuy": 85,
+            "MinPlatSale": 74,
+            "MinProfitMargin": -11,
+            "AvgPlatBuy": 62.4,
+            "AvgPlatSale": 75.4,
+            "AvgProfitMargin": 13.000000000000007
+        }
+    },
+    "arcane_velocity": {
+        "PlatStats": {
+            "MinPlatBuy": 160,
+            "MinPlatSale": 6,
+            "MinProfitMargin": -154,
+            "AvgPlatBuy": 144.2,
+            "AvgPlatSale": 8.6,
+            "AvgProfitMargin": -135.6
+        }
+    },
+    "nyx_prime_systems_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 8,
+            "MinPlatSale": 10,
+            "MinProfitMargin": 2,
+            "AvgPlatBuy": 6.0,
+            "AvgPlatSale": 10.0,
+            "AvgProfitMargin": 4.0
+        }
+    },
+    "dual_kamas_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 90,
+            "MinPlatSale": 118,
+            "MinProfitMargin": 28,
+            "AvgPlatBuy": 89.0,
+            "AvgPlatSale": 124.2,
+            "AvgProfitMargin": 35.2
+        }
+    },
+    "overextended": {
+        "PlatStats": {
+            "MinPlatBuy": 5,
+            "MinPlatSale": 10,
+            "MinProfitMargin": 5,
+            "AvgPlatBuy": 5.0,
+            "AvgPlatSale": 10.8,
+            "AvgProfitMargin": 5.800000000000001
+        }
+    },
+    "auger_strike": {
+        "PlatStats": {
+            "MinPlatBuy": 6,
+            "MinPlatSale": 18,
+            "MinProfitMargin": 12,
+            "AvgPlatBuy": 4.333333333333333,
+            "AvgPlatSale": 20.2,
+            "AvgProfitMargin": 15.866666666666667
+        }
+    },
+    "nyx_prime_neuroptics_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 38,
+            "MinPlatSale": 49,
+            "MinProfitMargin": 11,
+            "AvgPlatBuy": 35.2,
+            "AvgPlatSale": 50.4,
+            "AvgProfitMargin": 15.199999999999996
+        }
+    },
+    "rhino_prime_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 15,
+            "MinPlatSale": 21,
+            "MinProfitMargin": 6,
+            "AvgPlatBuy": 9.5,
+            "AvgPlatSale": 23.0,
+            "AvgProfitMargin": 13.5
+        }
+    },
+    "energy_conversion": {
+        "PlatStats": {
+            "MinPlatBuy": 50,
+            "MinPlatSale": 54,
+            "MinProfitMargin": 4,
+            "AvgPlatBuy": 50.0,
+            "AvgPlatSale": 57.6,
+            "AvgProfitMargin": 7.600000000000001
+        }
+    },
+    "arcane_resistance": {
+        "PlatStats": {
+            "MinPlatBuy": 35,
+            "MinPlatSale": 5,
+            "MinProfitMargin": -30,
+            "AvgPlatBuy": 31.666666666666668,
+            "AvgPlatSale": 5.2,
+            "AvgProfitMargin": -26.46666666666667
+        }
+    },
+    "lethal_torrent": {
+        "PlatStats": {
+            "MinPlatBuy": 10,
+            "MinPlatSale": 20,
+            "MinProfitMargin": 10,
+            "AvgPlatBuy": 10.0,
+            "AvgPlatSale": 20.0,
+            "AvgProfitMargin": 10.0
+        }
+    },
+    "primed_ravage": {
+        "PlatStats": {
+            "MinPlatBuy": 80,
+            "MinPlatSale": 30,
+            "MinProfitMargin": -50,
+            "AvgPlatBuy": 61.6,
+            "AvgPlatSale": 43.8,
+            "AvgProfitMargin": -17.800000000000004
+        }
+    },
+    "trinity_prime_neuroptics_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 10,
+            "MinPlatSale": 15,
+            "MinProfitMargin": 5,
+            "AvgPlatBuy": 7.666666666666667,
+            "AvgPlatSale": 20.4,
+            "AvgProfitMargin": 12.73333333333333
+        }
+    },
+    "loki_prime_chassis_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 15,
+            "MinPlatSale": 20,
+            "MinProfitMargin": 5,
+            "AvgPlatBuy": 12.25,
+            "AvgPlatSale": 22.6,
+            "AvgProfitMargin": 10.350000000000001
+        }
+    },
+    "mag_prime_chassis_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 5,
+            "MinPlatSale": 10,
+            "MinProfitMargin": 5,
+            "AvgPlatBuy": 5.0,
+            "AvgPlatSale": 10.0,
+            "AvgProfitMargin": 5.0
+        }
+    },
+    "primed_pressure_point": {
+        "PlatStats": {
+            "MinPlatBuy": 96,
+            "MinPlatSale": 40,
+            "MinProfitMargin": -56,
+            "AvgPlatBuy": 94.4,
+            "AvgPlatSale": 45.2,
+            "AvgProfitMargin": -49.2
+        }
+    },
+    "pyrana_prime_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 20,
+            "MinPlatSale": 27,
+            "MinProfitMargin": 7,
+            "AvgPlatBuy": 16.25,
+            "AvgPlatSale": 28.2,
+            "AvgProfitMargin": 11.95
+        }
+    },
+    "destreza_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 33,
+            "MinPlatSale": 57,
+            "MinProfitMargin": 24,
+            "AvgPlatBuy": 26.2,
+            "AvgPlatSale": 59.2,
+            "AvgProfitMargin": 33.0
+        }
+    },
+    "primed_expel_grineer": {
+        "PlatStats": {
+            "MinPlatBuy": 95,
+            "MinPlatSale": 59,
+            "MinProfitMargin": -36,
+            "AvgPlatBuy": 75.33333333333333,
+            "AvgPlatSale": 65.8,
+            "AvgProfitMargin": -9.533333333333331
+        }
+    },
+    "primed_expel_corpus": {
+        "PlatStats": {
+            "MinPlatBuy": 90,
+            "MinPlatSale": 75,
+            "MinProfitMargin": -15,
+            "AvgPlatBuy": 63.0,
+            "AvgPlatSale": 89.0,
+            "AvgProfitMargin": 26.0
+        }
+    },
+    "primed_expel_infested": {
+        "PlatStats": {
+            "MinPlatBuy": 85,
+            "MinPlatSale": 90,
+            "MinProfitMargin": 5,
+            "AvgPlatBuy": 70.0,
+            "AvgPlatSale": 120.0,
+            "AvgProfitMargin": 50.0
+        }
+    },
+    "primed_expel_corrupted": {
+        "PlatStats": {
+            "MinPlatBuy": 71,
+            "MinPlatSale": 79,
+            "MinProfitMargin": 8,
+            "AvgPlatBuy": 67.0,
+            "AvgPlatSale": 89.8,
+            "AvgProfitMargin": 22.799999999999997
+        }
+    },
+    "flame_gland": {
+        "PlatStats": {
+            "MinPlatBuy": 16,
+            "MinPlatSale": 20,
+            "MinProfitMargin": 4,
+            "AvgPlatBuy": 7.666666666666667,
+            "AvgPlatSale": 23.0,
+            "AvgProfitMargin": 15.333333333333332
+        }
+    },
+    "blood_rush": {
+        "PlatStats": {
+            "MinPlatBuy": 40,
+            "MinPlatSale": 9,
+            "MinProfitMargin": -31,
+            "AvgPlatBuy": 35.8,
+            "AvgPlatSale": 9.8,
+            "AvgProfitMargin": -25.999999999999996
+        }
+    },
+    "primed_heated_charge": {
+        "PlatStats": {
+            "MinPlatBuy": 95,
+            "MinPlatSale": 55,
+            "MinProfitMargin": -40,
+            "AvgPlatBuy": 87.0,
+            "AvgPlatSale": 58.2,
+            "AvgProfitMargin": -28.799999999999997
+        }
+    },
+    "neutron_star": {
+        "PlatStats": {
+            "MinPlatBuy": 6,
+            "MinPlatSale": 9,
+            "MinProfitMargin": 3,
+            "AvgPlatBuy": 4.333333333333333,
+            "AvgPlatSale": 9.8,
+            "AvgProfitMargin": 5.466666666666668
+        }
+    },
+    "loki_prime_neuroptics_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 9,
+            "MinPlatSale": 20,
+            "MinProfitMargin": 11,
+            "AvgPlatBuy": 7.666666666666667,
+            "AvgPlatSale": 20.0,
+            "AvgProfitMargin": 12.333333333333332
+        }
+    },
+    "ankyros_prime_gauntlet": {
+        "PlatStats": {
+            "MinPlatBuy": 9,
+            "MinPlatSale": 12,
+            "MinProfitMargin": 3,
+            "AvgPlatBuy": 7.5,
+            "AvgPlatSale": 19.4,
+            "AvgProfitMargin": 11.899999999999999
+        }
+    },
+    "reflex_guard": {
+        "PlatStats": {
+            "MinPlatBuy": 40,
+            "MinPlatSale": 3,
+            "MinProfitMargin": -37,
+            "AvgPlatBuy": 33.75,
+            "AvgPlatSale": 3.6,
+            "AvgProfitMargin": -30.15
+        }
+    },
+    "ash_prime_neuroptics_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 5,
+            "MinPlatSale": 8,
+            "MinProfitMargin": 3,
+            "AvgPlatBuy": 4.0,
+            "AvgPlatSale": 9.6,
+            "AvgProfitMargin": 5.6
+        }
+    },
+    "jolt": {
+        "PlatStats": {
+            "MinPlatBuy": 28,
+            "MinPlatSale": 33,
+            "MinProfitMargin": 5,
+            "AvgPlatBuy": 20.2,
+            "AvgPlatSale": 33.6,
+            "AvgProfitMargin": 13.400000000000002
+        }
+    },
+    "vectis_prime_stock": {
+        "PlatStats": {
+            "MinPlatBuy": 7,
+            "MinPlatSale": 16,
+            "MinProfitMargin": 9,
+            "AvgPlatBuy": 6.0,
+            "AvgPlatSale": 17.0,
+            "AvgProfitMargin": 11.0
+        }
+    },
+    "primed_continuity": {
+        "PlatStats": {
+            "MinPlatBuy": 80,
+            "MinPlatSale": 45,
+            "MinProfitMargin": -35,
+            "AvgPlatBuy": 80.0,
+            "AvgPlatSale": 47.4,
+            "AvgProfitMargin": -32.6
+        }
+    },
+    "primed_bane_of_infested": {
+        "PlatStats": {
+            "MinPlatBuy": 90,
+            "MinPlatSale": 60,
+            "MinProfitMargin": -30,
+            "AvgPlatBuy": 72.75,
+            "AvgPlatSale": 76.2,
+            "AvgProfitMargin": 3.450000000000003
+        }
+    },
+    "primed_bane_of_corpus": {
+        "PlatStats": {
+            "MinPlatBuy": 70,
+            "MinPlatSale": 20,
+            "MinProfitMargin": -50,
+            "AvgPlatBuy": 38.8,
+            "AvgPlatSale": 37.8,
+            "AvgProfitMargin": -1.0
+        }
+    },
+    "carrier_prime_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 5,
+            "MinPlatSale": 8,
+            "MinProfitMargin": 3,
+            "AvgPlatBuy": 4.5,
+            "AvgPlatSale": 9.2,
+            "AvgProfitMargin": 4.699999999999999
+        }
+    },
+    "primed_bane_of_grineer": {
+        "PlatStats": {
+            "MinPlatBuy": 72,
+            "MinPlatSale": 59,
+            "MinProfitMargin": -13,
+            "AvgPlatBuy": 66.4,
+            "AvgPlatSale": 59.6,
+            "AvgProfitMargin": -6.800000000000004
+        }
+    },
+    "vectis_prime_barrel": {
+        "PlatStats": {
+            "MinPlatBuy": 7,
+            "MinPlatSale": 11,
+            "MinProfitMargin": 4,
+            "AvgPlatBuy": 6.0,
+            "AvgPlatSale": 19.8,
+            "AvgProfitMargin": 13.8
+        }
+    },
+    "saryn_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 80,
+            "MinPlatSale": 85,
+            "MinProfitMargin": 5,
+            "AvgPlatBuy": 73.0,
+            "AvgPlatSale": 88.2,
+            "AvgProfitMargin": 15.200000000000003
+        }
+    },
+    "magus_repair": {
+        "PlatStats": {
+            "MinPlatBuy": 65,
+            "MinPlatSale": 8,
+            "MinProfitMargin": -57,
+            "AvgPlatBuy": 51.8,
+            "AvgPlatSale": 9.0,
+            "AvgProfitMargin": -42.8
+        }
+    },
+    "magus_overload": {
+        "PlatStats": {
+            "MinPlatBuy": 70,
+            "MinPlatSale": 10,
+            "MinProfitMargin": -60,
+            "AvgPlatBuy": 60.0,
+            "AvgPlatSale": 48.8,
+            "AvgProfitMargin": -11.200000000000003
+        }
+    },
+    "tipedo_prime_handle": {
+        "PlatStats": {
+            "MinPlatBuy": 25,
+            "MinPlatSale": 30,
+            "MinProfitMargin": 5,
+            "AvgPlatBuy": 16.333333333333332,
+            "AvgPlatSale": 32.0,
+            "AvgProfitMargin": 15.666666666666668
+        }
+    },
+    "nova_prime_systems_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 8,
+            "MinPlatSale": 11,
+            "MinProfitMargin": 3,
+            "AvgPlatBuy": 6.0,
+            "AvgPlatSale": 12.4,
+            "AvgProfitMargin": 6.4
+        }
+    },
+    "frost_prime_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 30,
+            "MinPlatSale": 42,
+            "MinProfitMargin": 12,
+            "AvgPlatBuy": 24.4,
+            "AvgPlatSale": 44.8,
+            "AvgProfitMargin": 20.4
+        }
+    },
+    "vauban_prime_neuroptics_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 30,
+            "MinPlatSale": 30,
+            "MinProfitMargin": 0,
+            "AvgPlatBuy": 23.0,
+            "AvgPlatSale": 33.6,
+            "AvgProfitMargin": 10.600000000000001
+        }
+    },
+    "hikou_prime_stars": {
+        "PlatStats": {
+            "MinPlatBuy": 5,
+            "MinPlatSale": 8,
+            "MinProfitMargin": 3,
+            "AvgPlatBuy": 5.0,
+            "AvgPlatSale": 9.0,
+            "AvgProfitMargin": 4.0
+        }
+    },
+    "prisma_angstrum": {
+        "PlatStats": {
+            "MinPlatBuy": 35,
+            "MinPlatSale": 60,
+            "MinProfitMargin": 25,
+            "AvgPlatBuy": 27.5,
+            "AvgPlatSale": 64.6,
+            "AvgProfitMargin": 37.099999999999994
+        }
+    },
+    "scorch": {
+        "PlatStats": {
+            "MinPlatBuy": 8,
+            "MinPlatSale": 10,
+            "MinProfitMargin": 2,
+            "AvgPlatBuy": 5.0,
+            "AvgPlatSale": 10.8,
+            "AvgProfitMargin": 5.800000000000001
+        }
+    },
+    "nova_prime_neuroptics_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 8,
+            "MinPlatSale": 10,
+            "MinProfitMargin": 2,
+            "AvgPlatBuy": 6.0,
+            "AvgPlatSale": 12.2,
+            "AvgProfitMargin": 6.199999999999999
+        }
+    },
+    "nova_prime_chassis_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 25,
+            "MinPlatSale": 28,
+            "MinProfitMargin": 3,
+            "AvgPlatBuy": 21.8,
+            "AvgPlatSale": 32.4,
+            "AvgProfitMargin": 10.599999999999998
+        }
+    },
+    "nova_prime_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 8,
+            "MinPlatSale": 10,
+            "MinProfitMargin": 2,
+            "AvgPlatBuy": 7.0,
+            "AvgPlatSale": 11.2,
+            "AvgProfitMargin": 4.199999999999999
+        }
+    },
+    "frost_prime_neuroptics_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 6,
+            "MinPlatSale": 7,
+            "MinProfitMargin": 1,
+            "AvgPlatBuy": 4.0,
+            "AvgPlatSale": 9.4,
+            "AvgProfitMargin": 5.4
+        }
+    },
+    "searing_steel": {
+        "PlatStats": {
+            "MinPlatBuy": 25,
+            "MinPlatSale": 39,
+            "MinProfitMargin": 14,
+            "AvgPlatBuy": 15.4,
+            "AvgPlatSale": 57.8,
+            "AvgProfitMargin": 42.4
+        }
+    },
+    "secura_penta": {
+        "PlatStats": {
+            "MinPlatBuy": 25,
+            "MinPlatSale": 40,
+            "MinProfitMargin": 15,
+            "AvgPlatBuy": 21.0,
+            "AvgPlatSale": 54.0,
+            "AvgProfitMargin": 33.0
+        }
+    },
+    "arcane_fury": {
+        "PlatStats": {
+            "MinPlatBuy": 120,
+            "MinPlatSale": 7,
+            "MinProfitMargin": -113,
+            "AvgPlatBuy": 106.2,
+            "AvgPlatSale": 7.8,
+            "AvgProfitMargin": -98.4
+        }
+    },
+    "primed_morphic_transformer": {
+        "PlatStats": {
+            "MinPlatBuy": 81,
+            "MinPlatSale": 55,
+            "MinProfitMargin": -26,
+            "AvgPlatBuy": 65.33333333333333,
+            "AvgPlatSale": 62.0,
+            "AvgProfitMargin": -3.3333333333333286
+        }
+    },
+    "arcane_aegis": {
+        "PlatStats": {
+            "MinPlatBuy": 191,
+            "MinPlatSale": 12,
+            "MinProfitMargin": -179,
+            "AvgPlatBuy": 180.4,
+            "AvgPlatSale": 12.6,
+            "AvgProfitMargin": -167.8
+        }
+    },
+    "arcane_energize": {
+        "PlatStats": {
+            "MinPlatBuy": 240,
+            "MinPlatSale": 13,
+            "MinProfitMargin": -227,
+            "AvgPlatBuy": 220.0,
+            "AvgPlatSale": 13.8,
+            "AvgProfitMargin": -206.2
+        }
+    },
+    "rime_rounds": {
+        "PlatStats": {
+            "MinPlatBuy": 15,
+            "MinPlatSale": 28,
+            "MinProfitMargin": 13,
+            "AvgPlatBuy": 10.0,
+            "AvgPlatSale": 28.0,
+            "AvgProfitMargin": 18.0
+        }
+    },
+    "vulkar_wraith": {
+        "PlatStats": {
+            "MinPlatBuy": 36,
+            "MinPlatSale": 69,
+            "MinProfitMargin": 33,
+            "AvgPlatBuy": 27.0,
+            "AvgPlatSale": 85.8,
+            "AvgProfitMargin": 58.8
+        }
+    },
+    "sybaris_prime_barrel": {
+        "PlatStats": {
+            "MinPlatBuy": 20,
+            "MinPlatSale": 30,
+            "MinProfitMargin": 10,
+            "AvgPlatBuy": 15.0,
+            "AvgPlatSale": 41.0,
+            "AvgProfitMargin": 26.0
+        }
+    },
+    "banshee_prime_chassis_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 10,
+            "MinPlatSale": 27,
+            "MinProfitMargin": 17,
+            "AvgPlatBuy": 7.5,
+            "AvgPlatSale": 33.4,
+            "AvgProfitMargin": 25.9
+        }
+    },
+    "wukong_prime_chassis_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 6,
+            "MinPlatSale": 9,
+            "MinProfitMargin": 3,
+            "AvgPlatBuy": 5.0,
+            "AvgPlatSale": 9.8,
+            "AvgProfitMargin": 4.800000000000001
+        }
+    },
+    "helios_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 40,
+            "MinPlatSale": 59,
+            "MinProfitMargin": 19,
+            "AvgPlatBuy": 40.0,
+            "AvgPlatSale": 62.4,
+            "AvgProfitMargin": 22.4
+        }
+    },
+    "hydroid_prime_neuroptics_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 10,
+            "MinPlatSale": 15,
+            "MinProfitMargin": 5,
+            "AvgPlatBuy": 7.5,
+            "AvgPlatSale": 16.4,
+            "AvgProfitMargin": 8.899999999999999
+        }
+    },
+    "latron_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 89,
+            "MinPlatSale": 99,
+            "MinProfitMargin": 10,
+            "AvgPlatBuy": 84.4,
+            "AvgPlatSale": 99.4,
+            "AvgProfitMargin": 15.0
+        }
+    },
+    "double_tap": {
+        "PlatStats": {
+            "MinPlatBuy": 10,
+            "MinPlatSale": 29,
+            "MinProfitMargin": 19,
+            "AvgPlatBuy": 9.0,
+            "AvgPlatSale": 32.4,
+            "AvgProfitMargin": 23.4
+        }
+    },
+    "arcane_strike": {
+        "PlatStats": {
+            "MinPlatBuy": 52,
+            "MinPlatSale": 4,
+            "MinProfitMargin": -48,
+            "AvgPlatBuy": 31.2,
+            "AvgPlatSale": 4.8,
+            "AvgProfitMargin": -26.4
+        }
+    },
+    "vectis_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 80,
+            "MinPlatSale": 89,
+            "MinProfitMargin": 9,
+            "AvgPlatBuy": 59.0,
+            "AvgPlatSale": 89.4,
+            "AvgProfitMargin": 30.400000000000006
+        }
+    },
+    "primed_pack_leader": {
+        "PlatStats": {
+            "MinPlatBuy": 63,
+            "MinPlatSale": 48,
+            "MinProfitMargin": -15,
+            "AvgPlatBuy": 40.6,
+            "AvgPlatSale": 49.4,
+            "AvgProfitMargin": 8.799999999999997
+        }
+    },
+    "arcane_nullifier": {
+        "PlatStats": {
+            "MinPlatBuy": 50,
+            "MinPlatSale": 4,
+            "MinProfitMargin": -46,
+            "AvgPlatBuy": 50.0,
+            "AvgPlatSale": 4.4,
+            "AvgProfitMargin": -45.6
+        }
+    },
+    "rhino_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 57,
+            "MinPlatSale": 68,
+            "MinProfitMargin": 11,
+            "AvgPlatBuy": 56.2,
+            "AvgPlatSale": 69.6,
+            "AvgProfitMargin": 13.399999999999991
+        }
+    },
+    "sicarus_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 50,
+            "MinPlatSale": 64,
+            "MinProfitMargin": 14,
+            "AvgPlatBuy": 43.0,
+            "AvgPlatSale": 67.8,
+            "AvgProfitMargin": 24.799999999999997
+        }
+    },
+    "boltor_prime_stock": {
+        "PlatStats": {
+            "MinPlatBuy": 5,
+            "MinPlatSale": 9,
+            "MinProfitMargin": 4,
+            "AvgPlatBuy": 4.666666666666667,
+            "AvgPlatSale": 33.8,
+            "AvgProfitMargin": 29.13333333333333
+        }
+    },
+    "soma_prime_stock": {
+        "PlatStats": {
+            "MinPlatBuy": 12,
+            "MinPlatSale": 19,
+            "MinProfitMargin": 7,
+            "AvgPlatBuy": 9.8,
+            "AvgPlatSale": 26.6,
+            "AvgProfitMargin": 16.8
+        }
+    },
+    "braton_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 6,
+            "MinPlatSale": 7,
+            "MinProfitMargin": 1,
+            "AvgPlatBuy": 5.4,
+            "AvgPlatSale": 7.8,
+            "AvgProfitMargin": 2.3999999999999995
+        }
+    },
+    "aklex_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 35,
+            "MinPlatSale": 50,
+            "MinProfitMargin": 15,
+            "AvgPlatBuy": 31.666666666666668,
+            "AvgPlatSale": 50.0,
+            "AvgProfitMargin": 18.333333333333332
+        }
+    },
+    "blaze": {
+        "PlatStats": {
+            "MinPlatBuy": 22,
+            "MinPlatSale": 34,
+            "MinProfitMargin": 12,
+            "AvgPlatBuy": 20.4,
+            "AvgPlatSale": 35.6,
+            "AvgProfitMargin": 15.200000000000003
+        }
+    },
+    "zhuge_prime_barrel": {
+        "PlatStats": {
+            "MinPlatBuy": 10,
+            "MinPlatSale": 14,
+            "MinProfitMargin": 4,
+            "AvgPlatBuy": 7.0,
+            "AvgPlatSale": 16.6,
+            "AvgProfitMargin": 9.600000000000001
+        }
+    },
+    "ninkondi_prime_handle": {
+        "PlatStats": {
+            "MinPlatBuy": 10,
+            "MinPlatSale": 18,
+            "MinProfitMargin": 8,
+            "AvgPlatBuy": 8.0,
+            "AvgPlatSale": 35.0,
+            "AvgProfitMargin": 27.0
+        }
+    },
+    "ninkondi_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 55,
+            "MinPlatSale": 55,
+            "MinProfitMargin": 0,
+            "AvgPlatBuy": 36.666666666666664,
+            "AvgPlatSale": 57.0,
+            "AvgProfitMargin": 20.333333333333336
+        }
+    },
+    "wukong_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 66,
+            "MinPlatSale": 75,
+            "MinProfitMargin": 9,
+            "AvgPlatBuy": 65.4,
+            "AvgPlatSale": 77.4,
+            "AvgProfitMargin": 12.0
+        }
+    },
+    "critical_delay": {
+        "PlatStats": {
+            "MinPlatBuy": 5,
+            "MinPlatSale": 9,
+            "MinProfitMargin": 4,
+            "AvgPlatBuy": 3.3333333333333335,
+            "AvgPlatSale": 9.8,
+            "AvgProfitMargin": 6.466666666666667
+        }
+    },
+    "latron_prime_barrel": {
+        "PlatStats": {
+            "MinPlatBuy": 10,
+            "MinPlatSale": 19,
+            "MinProfitMargin": 9,
+            "AvgPlatBuy": 7.75,
+            "AvgPlatSale": 19.0,
+            "AvgProfitMargin": 11.25
+        }
+    },
+    "bite": {
+        "PlatStats": {
+            "MinPlatBuy": 85,
+            "MinPlatSale": 40,
+            "MinProfitMargin": -45,
+            "AvgPlatBuy": 78.6,
+            "AvgPlatSale": 52.0,
+            "AvgProfitMargin": -26.599999999999994
+        }
+    },
+    "ember_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 75,
+            "MinPlatSale": 88,
+            "MinProfitMargin": 13,
+            "AvgPlatBuy": 69.4,
+            "AvgPlatSale": 90.8,
+            "AvgProfitMargin": 21.39999999999999
+        }
+    },
+    "mag_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 56,
+            "MinPlatSale": 59,
+            "MinProfitMargin": 3,
+            "AvgPlatBuy": 51.6,
+            "AvgPlatSale": 66.2,
+            "AvgProfitMargin": 14.600000000000001
+        }
+    },
+    "nekros_prime_neuroptics_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 12,
+            "MinPlatSale": 20,
+            "MinProfitMargin": 8,
+            "AvgPlatBuy": 11.0,
+            "AvgPlatSale": 25.0,
+            "AvgProfitMargin": 14.0
+        }
+    },
+    "oberon_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 60,
+            "MinPlatSale": 74,
+            "MinProfitMargin": 14,
+            "AvgPlatBuy": 60.0,
+            "AvgPlatSale": 74.8,
+            "AvgProfitMargin": 14.799999999999997
+        }
+    },
+    "saryn_prime_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 15,
+            "MinPlatSale": 20,
+            "MinProfitMargin": 5,
+            "AvgPlatBuy": 12.8,
+            "AvgPlatSale": 21.0,
+            "AvgProfitMargin": 8.2
+        }
+    },
+    "bo_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 80,
+            "MinPlatSale": 80,
+            "MinProfitMargin": 0,
+            "AvgPlatBuy": 65.4,
+            "AvgPlatSale": 85.6,
+            "AvgProfitMargin": 20.19999999999999
+        }
+    },
+    "boar_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 60,
+            "MinPlatSale": 62,
+            "MinProfitMargin": 2,
+            "AvgPlatBuy": 48.6,
+            "AvgPlatSale": 66.0,
+            "AvgProfitMargin": 17.4
+        }
+    },
+    "boltor_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 60,
+            "MinPlatSale": 69,
+            "MinProfitMargin": 9,
+            "AvgPlatBuy": 47.0,
+            "AvgPlatSale": 70.8,
+            "AvgProfitMargin": 23.799999999999997
+        }
+    },
+    "kogake_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 75,
+            "MinPlatSale": 78,
+            "MinProfitMargin": 3,
+            "AvgPlatBuy": 65.8,
+            "AvgPlatSale": 80.4,
+            "AvgProfitMargin": 14.600000000000009
+        }
+    },
+    "zephyr_prime_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 5,
+            "MinPlatSale": 12,
+            "MinProfitMargin": 7,
+            "AvgPlatBuy": 5.0,
+            "AvgPlatSale": 14.2,
+            "AvgProfitMargin": 9.2
+        }
+    },
+    "lato_vandal_set": {
+        "PlatStats": {
+            "MinPlatBuy": 256,
+            "MinPlatSale": 289,
+            "MinProfitMargin": 33,
+            "AvgPlatBuy": 248.8,
+            "AvgPlatSale": 292.8,
+            "AvgProfitMargin": 44.0
+        }
+    },
+    "lato_vandal_barrel": {
+        "PlatStats": {
+            "MinPlatBuy": 177,
+            "MinPlatSale": 190,
+            "MinProfitMargin": 13,
+            "AvgPlatBuy": 173.2,
+            "AvgPlatSale": 199.8,
+            "AvgProfitMargin": 26.600000000000023
+        }
+    },
+    "braton_vandal_set": {
+        "PlatStats": {
+            "MinPlatBuy": 252,
+            "MinPlatSale": 330,
+            "MinProfitMargin": 78,
+            "AvgPlatBuy": 248.6,
+            "AvgPlatSale": 334.0,
+            "AvgProfitMargin": 85.4
+        }
+    },
+    "magus_anomaly": {
+        "PlatStats": {
+            "MinPlatBuy": 53,
+            "MinPlatSale": 7,
+            "MinProfitMargin": -46,
+            "AvgPlatBuy": 28.0,
+            "AvgPlatSale": 8.2,
+            "AvgProfitMargin": -19.8
+        }
+    },
+    "empowered_blades": {
+        "PlatStats": {
+            "MinPlatBuy": 30,
+            "MinPlatSale": 39,
+            "MinProfitMargin": 9,
+            "AvgPlatBuy": 23.75,
+            "AvgPlatSale": 39.8,
+            "AvgProfitMargin": 16.049999999999997
+        }
+    },
+    "venom_teeth": {
+        "PlatStats": {
+            "MinPlatBuy": 20,
+            "MinPlatSale": 24,
+            "MinProfitMargin": 4,
+            "AvgPlatBuy": 11.0,
+            "AvgPlatSale": 25.4,
+            "AvgProfitMargin": 14.399999999999999
+        }
+    },
+    "weeping_wounds": {
+        "PlatStats": {
+            "MinPlatBuy": 15,
+            "MinPlatSale": 17,
+            "MinProfitMargin": 2,
+            "AvgPlatBuy": 12.6,
+            "AvgPlatSale": 19.0,
+            "AvgProfitMargin": 6.4
+        }
+    },
+    "soma_prime_barrel": {
+        "PlatStats": {
+            "MinPlatBuy": 6,
+            "MinPlatSale": 9,
+            "MinProfitMargin": 3,
+            "AvgPlatBuy": 4.4,
+            "AvgPlatSale": 11.4,
+            "AvgProfitMargin": 7.0
+        }
+    },
+    "mag_prime_neuroptics_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 4,
+            "MinPlatSale": 8,
+            "MinProfitMargin": 4,
+            "AvgPlatBuy": 3.6,
+            "AvgPlatSale": 9.6,
+            "AvgProfitMargin": 6.0
+        }
+    },
+    "primed_fast_hands": {
+        "PlatStats": {
+            "MinPlatBuy": 60,
+            "MinPlatSale": 50,
+            "MinProfitMargin": -10,
+            "AvgPlatBuy": 42.4,
+            "AvgPlatSale": 50.0,
+            "AvgProfitMargin": 7.600000000000001
+        }
+    },
+    "melee_riven_mod_(veiled)": {
+        "PlatStats": {
+            "MinPlatBuy": 3,
+            "MinPlatSale": 5,
+            "MinProfitMargin": 2,
+            "AvgPlatBuy": 2.4,
+            "AvgPlatSale": 5.0,
+            "AvgProfitMargin": 2.6
+        }
+    },
+    "corrosive_projection": {
+        "PlatStats": {
+            "MinPlatBuy": 13,
+            "MinPlatSale": 15,
+            "MinProfitMargin": 2,
+            "AvgPlatBuy": 9.4,
+            "AvgPlatSale": 17.2,
+            "AvgProfitMargin": 7.799999999999999
+        }
+    },
+    "pistol_riven_mod_(veiled)": {
+        "PlatStats": {
+            "MinPlatBuy": 4,
+            "MinPlatSale": 4,
+            "MinProfitMargin": 0,
+            "AvgPlatBuy": 2.8,
+            "AvgPlatSale": 5.0,
+            "AvgProfitMargin": 2.2
+        }
+    },
+    "ash_prime_chassis_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 10,
+            "MinPlatSale": 10,
+            "MinProfitMargin": 0,
+            "AvgPlatBuy": 7.0,
+            "AvgPlatSale": 12.4,
+            "AvgProfitMargin": 5.4
+        }
+    },
+    "ash_prime_systems_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 26,
+            "MinPlatSale": 30,
+            "MinProfitMargin": 4,
+            "AvgPlatBuy": 23.2,
+            "AvgPlatSale": 33.4,
+            "AvgProfitMargin": 10.2
+        }
+    },
+    "mag_prime_systems_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 6,
+            "MinPlatSale": 10,
+            "MinProfitMargin": 4,
+            "AvgPlatBuy": 5.8,
+            "AvgPlatSale": 11.2,
+            "AvgProfitMargin": 5.3999999999999995
+        }
+    },
+    "vectis_prime_receiver": {
+        "PlatStats": {
+            "MinPlatBuy": 27,
+            "MinPlatSale": 45,
+            "MinProfitMargin": 18,
+            "AvgPlatBuy": 24.0,
+            "AvgPlatSale": 45.8,
+            "AvgProfitMargin": 21.799999999999997
+        }
+    },
+    "vaykor_sydon": {
+        "PlatStats": {
+            "MinPlatBuy": 15,
+            "MinPlatSale": 24,
+            "MinProfitMargin": 9,
+            "AvgPlatBuy": 11.666666666666666,
+            "AvgPlatSale": 31.4,
+            "AvgProfitMargin": 19.733333333333334
+        }
+    },
+    "arcane_grace": {
+        "PlatStats": {
+            "MinPlatBuy": 50,
+            "MinPlatSale": 5,
+            "MinProfitMargin": -45,
+            "AvgPlatBuy": 35.0,
+            "AvgPlatSale": 7.0,
+            "AvgProfitMargin": -28.0
+        }
+    },
+    "heavy_caliber": {
+        "PlatStats": {
+            "MinPlatBuy": 56,
+            "MinPlatSale": 4,
+            "MinProfitMargin": -52,
+            "AvgPlatBuy": 54.0,
+            "AvgPlatSale": 4.6,
+            "AvgProfitMargin": -49.4
+        }
+    },
+    "paris_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 6,
+            "MinPlatSale": 10,
+            "MinProfitMargin": 4,
+            "AvgPlatBuy": 5.6,
+            "AvgPlatSale": 10.0,
+            "AvgProfitMargin": 4.4
+        }
+    },
+    "trinity_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 40,
+            "MinPlatSale": 69,
+            "MinProfitMargin": 29,
+            "AvgPlatBuy": 37.333333333333336,
+            "AvgPlatSale": 69.8,
+            "AvgProfitMargin": 32.46666666666666
+        }
+    },
+    "ballistica_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 60,
+            "MinPlatSale": 70,
+            "MinProfitMargin": 10,
+            "AvgPlatBuy": 43.75,
+            "AvgPlatSale": 73.8,
+            "AvgProfitMargin": 30.049999999999997
+        }
+    },
+    "exodia_force": {
+        "PlatStats": {
+            "MinPlatBuy": 35,
+            "MinPlatSale": 8,
+            "MinProfitMargin": -27,
+            "AvgPlatBuy": 23.333333333333332,
+            "AvgPlatSale": 13.2,
+            "AvgProfitMargin": -10.133333333333333
+        }
+    },
+    "wukong_prime_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 30,
+            "MinPlatSale": 35,
+            "MinProfitMargin": 5,
+            "AvgPlatBuy": 26.8,
+            "AvgPlatSale": 36.0,
+            "AvgProfitMargin": 9.2
+        }
+    },
+    "wukong_prime_systems_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 10,
+            "MinPlatSale": 12,
+            "MinProfitMargin": 2,
+            "AvgPlatBuy": 7.6,
+            "AvgPlatSale": 18.2,
+            "AvgProfitMargin": 10.6
+        }
+    },
+    "destreza_prime_blade": {
+        "PlatStats": {
+            "MinPlatBuy": 22,
+            "MinPlatSale": 35,
+            "MinProfitMargin": 13,
+            "AvgPlatBuy": 18.5,
+            "AvgPlatSale": 48.0,
+            "AvgProfitMargin": 29.5
+        }
+    },
+    "aklex_prime_link": {
+        "PlatStats": {
+            "MinPlatBuy": 35,
+            "MinPlatSale": 50,
+            "MinProfitMargin": 15,
+            "AvgPlatBuy": 32.0,
+            "AvgPlatSale": 53.6,
+            "AvgProfitMargin": 21.6
+        }
+    },
+    "augur_secrets": {
+        "PlatStats": {
+            "MinPlatBuy": 12,
+            "MinPlatSale": 15,
+            "MinProfitMargin": 3,
+            "AvgPlatBuy": 10.0,
+            "AvgPlatSale": 17.4,
+            "AvgProfitMargin": 7.399999999999999
+        }
+    },
+    "hydroid_prime_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 10,
+            "MinPlatSale": 19,
+            "MinProfitMargin": 9,
+            "AvgPlatBuy": 8.6,
+            "AvgPlatSale": 20.2,
+            "AvgProfitMargin": 11.6
+        }
+    },
+    "equinox_prime_systems_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 20,
+            "MinPlatSale": 30,
+            "MinProfitMargin": 10,
+            "AvgPlatBuy": 17.0,
+            "AvgPlatSale": 33.6,
+            "AvgProfitMargin": 16.6
+        }
+    },
+    "archgun_riven_mod_(veiled)": {
+        "PlatStats": {
+            "MinPlatBuy": 7,
+            "MinPlatSale": 15,
+            "MinProfitMargin": 8,
+            "AvgPlatBuy": 5.2,
+            "AvgPlatSale": 17.4,
+            "AvgProfitMargin": 12.2
+        }
+    },
+    "frostbite": {
+        "PlatStats": {
+            "MinPlatBuy": 12,
+            "MinPlatSale": 15,
+            "MinProfitMargin": 3,
+            "AvgPlatBuy": 8.4,
+            "AvgPlatSale": 18.4,
+            "AvgProfitMargin": 9.999999999999998
+        }
+    },
+    "akvasto_prime_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 20,
+            "MinPlatSale": 14,
+            "MinProfitMargin": -6,
+            "AvgPlatBuy": 10.75,
+            "AvgPlatSale": 18.6,
+            "AvgProfitMargin": 7.850000000000001
+        }
+    },
+    "venka_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 61,
+            "MinPlatSale": 70,
+            "MinProfitMargin": 9,
+            "AvgPlatBuy": 49.6,
+            "AvgPlatSale": 70.0,
+            "AvgProfitMargin": 20.4
+        }
+    },
+    "orthos_prime_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 2,
+            "MinPlatSale": 2,
+            "MinProfitMargin": 0,
+            "AvgPlatBuy": 1.75,
+            "AvgPlatSale": 2.4,
+            "AvgProfitMargin": 0.6499999999999999
+        }
+    },
+    "primed_bane_of_corrupted": {
+        "PlatStats": {
+            "MinPlatBuy": 70,
+            "MinPlatSale": 25,
+            "MinProfitMargin": -45,
+            "AvgPlatBuy": 59.0,
+            "AvgPlatSale": 28.6,
+            "AvgProfitMargin": -30.4
+        }
+    },
+    "primed_slip_magazine": {
+        "PlatStats": {
+            "MinPlatBuy": 80,
+            "MinPlatSale": 50,
+            "MinProfitMargin": -30,
+            "AvgPlatBuy": 57.75,
+            "AvgPlatSale": 64.0,
+            "AvgProfitMargin": 6.25
+        }
+    },
+    "primed_flow": {
+        "PlatStats": {
+            "MinPlatBuy": 80,
+            "MinPlatSale": 47,
+            "MinProfitMargin": -33,
+            "AvgPlatBuy": 74.4,
+            "AvgPlatSale": 48.4,
+            "AvgProfitMargin": -26.000000000000007
+        }
+    },
+    "primed_pistol_ammo_mutation": {
+        "PlatStats": {
+            "MinPlatBuy": 101,
+            "MinPlatSale": 120,
+            "MinProfitMargin": 19,
+            "AvgPlatBuy": 65.25,
+            "AvgPlatSale": 174.0,
+            "AvgProfitMargin": 108.75
+        }
+    },
+    "volt_prime_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 15,
+            "MinPlatSale": 20,
+            "MinProfitMargin": 5,
+            "AvgPlatBuy": 13.6,
+            "AvgPlatSale": 22.8,
+            "AvgProfitMargin": 9.200000000000001
+        }
+    },
+    "magnum_force": {
+        "PlatStats": {
+            "MinPlatBuy": 55,
+            "MinPlatSale": 5,
+            "MinProfitMargin": -50,
+            "AvgPlatBuy": 37.666666666666664,
+            "AvgPlatSale": 6.0,
+            "AvgProfitMargin": -31.666666666666664
+        }
+    },
+    "rhino_prime_chassis_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 4,
+            "MinPlatSale": 9,
+            "MinProfitMargin": 5,
+            "AvgPlatBuy": 3.5,
+            "AvgPlatSale": 9.8,
+            "AvgProfitMargin": 6.300000000000001
+        }
+    },
+    "carrier_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 80,
+            "MinPlatSale": 88,
+            "MinProfitMargin": 8,
+            "AvgPlatBuy": 73.0,
+            "AvgPlatSale": 89.2,
+            "AvgProfitMargin": 16.200000000000003
+        }
+    },
+    "dakra_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 17,
+            "MinPlatSale": 20,
+            "MinProfitMargin": 3,
+            "AvgPlatBuy": 13.0,
+            "AvgPlatSale": 21.0,
+            "AvgProfitMargin": 8.0
+        }
+    },
+    "latron_wraith_set": {
+        "PlatStats": {
+            "MinPlatBuy": 55,
+            "MinPlatSale": 70,
+            "MinProfitMargin": 15,
+            "AvgPlatBuy": 55.0,
+            "AvgPlatSale": 89.6,
+            "AvgProfitMargin": 34.599999999999994
+        }
+    },
+    "nekros_prime_chassis_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 10,
+            "MinPlatSale": 8,
+            "MinProfitMargin": -2,
+            "AvgPlatBuy": 8.333333333333334,
+            "AvgPlatSale": 9.2,
+            "AvgProfitMargin": 0.8666666666666654
+        }
+    },
+    "dethcube_prime_cerebrum": {
+        "PlatStats": {
+            "MinPlatBuy": 30,
+            "MinPlatSale": 39,
+            "MinProfitMargin": 9,
+            "AvgPlatBuy": 19.8,
+            "AvgPlatSale": 43.4,
+            "AvgProfitMargin": 23.599999999999998
+        }
+    },
+    "dethcube_prime_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 10,
+            "MinPlatSale": 25,
+            "MinProfitMargin": 15,
+            "AvgPlatBuy": 8.6,
+            "AvgPlatSale": 29.0,
+            "AvgProfitMargin": 20.4
+        }
+    },
+    "dethcube_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 75,
+            "MinPlatSale": 84,
+            "MinProfitMargin": 9,
+            "AvgPlatBuy": 67.8,
+            "AvgPlatSale": 88.6,
+            "AvgProfitMargin": 20.799999999999997
+        }
+    },
+    "ivara_prime_chassis_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 20,
+            "MinPlatSale": 29,
+            "MinProfitMargin": 9,
+            "AvgPlatBuy": 16.75,
+            "AvgPlatSale": 29.0,
+            "AvgProfitMargin": 12.25
+        }
+    },
+    "baza_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 60,
+            "MinPlatSale": 74,
+            "MinProfitMargin": 14,
+            "AvgPlatBuy": 51.0,
+            "AvgPlatSale": 76.6,
+            "AvgProfitMargin": 25.599999999999994
+        }
+    },
+    "aksomati_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 66,
+            "MinPlatSale": 90,
+            "MinProfitMargin": 24,
+            "AvgPlatBuy": 43.2,
+            "AvgPlatSale": 93.0,
+            "AvgProfitMargin": 49.8
+        }
+    },
+    "aksomati_prime_link": {
+        "PlatStats": {
+            "MinPlatBuy": 25,
+            "MinPlatSale": 34,
+            "MinProfitMargin": 9,
+            "AvgPlatBuy": 20.4,
+            "AvgPlatSale": 35.2,
+            "AvgProfitMargin": 14.800000000000004
+        }
+    },
+    "gram_prime_handle": {
+        "PlatStats": {
+            "MinPlatBuy": 10,
+            "MinPlatSale": 18,
+            "MinProfitMargin": 8,
+            "AvgPlatBuy": 8.0,
+            "AvgPlatSale": 20.6,
+            "AvgProfitMargin": 12.600000000000001
+        }
+    },
+    "primed_reach": {
+        "PlatStats": {
+            "MinPlatBuy": 70,
+            "MinPlatSale": 49,
+            "MinProfitMargin": -21,
+            "AvgPlatBuy": 50.0,
+            "AvgPlatSale": 51.0,
+            "AvgProfitMargin": 1.0
+        }
+    },
+    "health_conversion": {
+        "PlatStats": {
+            "MinPlatBuy": 41,
+            "MinPlatSale": 54,
+            "MinProfitMargin": 13,
+            "AvgPlatBuy": 35.2,
+            "AvgPlatSale": 58.0,
+            "AvgProfitMargin": 22.799999999999997
+        }
+    },
+    "sprint_boost": {
+        "PlatStats": {
+            "MinPlatBuy": 11,
+            "MinPlatSale": 19,
+            "MinProfitMargin": 8,
+            "AvgPlatBuy": 6.5,
+            "AvgPlatSale": 36.0,
+            "AvgProfitMargin": 29.5
+        }
+    },
+    "hikou_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 55,
+            "MinPlatSale": 50,
+            "MinProfitMargin": -5,
+            "AvgPlatBuy": 34.6,
+            "AvgPlatSale": 50.0,
+            "AvgProfitMargin": 15.399999999999999
+        }
+    },
+    "magus_nourish": {
+        "PlatStats": {
+            "MinPlatBuy": 15,
+            "MinPlatSale": 3,
+            "MinProfitMargin": -12,
+            "AvgPlatBuy": 9.0,
+            "AvgPlatSale": 29.0,
+            "AvgProfitMargin": 20.0
+        }
+    },
+    "virtuos_shadow": {
+        "PlatStats": {
+            "MinPlatBuy": 10,
+            "MinPlatSale": 4,
+            "MinProfitMargin": -6,
+            "AvgPlatBuy": 10.0,
+            "AvgPlatSale": 14.8,
+            "AvgProfitMargin": 4.800000000000001
+        }
+    },
+    "frost_prime_chassis_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 7,
+            "MinPlatSale": 15,
+            "MinProfitMargin": 8,
+            "AvgPlatBuy": 5.6,
+            "AvgPlatSale": 18.2,
+            "AvgProfitMargin": 12.6
+        }
+    },
+    "ember_prime_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 25,
+            "MinPlatSale": 34,
+            "MinProfitMargin": 9,
+            "AvgPlatBuy": 20.0,
+            "AvgPlatSale": 36.6,
+            "AvgProfitMargin": 16.6
+        }
+    },
+    "tempo_royale": {
+        "PlatStats": {
+            "MinPlatBuy": 10,
+            "MinPlatSale": 15,
+            "MinProfitMargin": 5,
+            "AvgPlatBuy": 5.0,
+            "AvgPlatSale": 21.6,
+            "AvgProfitMargin": 16.6
+        }
+    },
+    "ash_prime_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 10,
+            "MinPlatSale": 15,
+            "MinProfitMargin": 5,
+            "AvgPlatBuy": 8.25,
+            "AvgPlatSale": 17.0,
+            "AvgProfitMargin": 8.75
+        }
+    },
+    "rifle_riven_mod_(veiled)": {
+        "PlatStats": {
+            "MinPlatBuy": 5,
+            "MinPlatSale": 8,
+            "MinProfitMargin": 3,
+            "AvgPlatBuy": 5.0,
+            "AvgPlatSale": 9.4,
+            "AvgProfitMargin": 4.4
+        }
+    },
+    "reaper_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 35,
+            "MinPlatSale": 40,
+            "MinProfitMargin": 5,
+            "AvgPlatBuy": 27.4,
+            "AvgPlatSale": 41.0,
+            "AvgProfitMargin": 13.600000000000001
+        }
+    },
+    "vauban_prime_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 10,
+            "MinPlatSale": 18,
+            "MinProfitMargin": 8,
+            "AvgPlatBuy": 9.0,
+            "AvgPlatSale": 19.0,
+            "AvgProfitMargin": 10.0
+        }
+    },
+    "arcane_guardian": {
+        "PlatStats": {
+            "MinPlatBuy": 35,
+            "MinPlatSale": 4,
+            "MinProfitMargin": -31,
+            "AvgPlatBuy": 22.5,
+            "AvgPlatSale": 4.6,
+            "AvgProfitMargin": -17.9
+        }
+    },
+    "shedu_set": {
+        "PlatStats": {
+            "MinPlatBuy": 31,
+            "MinPlatSale": 45,
+            "MinProfitMargin": 14,
+            "AvgPlatBuy": 30.4,
+            "AvgPlatSale": 45.0,
+            "AvgProfitMargin": 14.600000000000001
+        }
+    },
+    "hypothermic_shell": {
+        "PlatStats": {
+            "MinPlatBuy": 8,
+            "MinPlatSale": 10,
+            "MinProfitMargin": 2,
+            "AvgPlatBuy": 5.666666666666667,
+            "AvgPlatSale": 10.6,
+            "AvgProfitMargin": 4.933333333333333
+        }
+    },
+    "galatine_prime_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 28,
+            "MinPlatSale": 30,
+            "MinProfitMargin": 2,
+            "AvgPlatBuy": 20.0,
+            "AvgPlatSale": 37.4,
+            "AvgProfitMargin": 17.4
+        }
+    },
+    "orthos_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 8,
+            "MinPlatSale": 9,
+            "MinProfitMargin": 1,
+            "AvgPlatBuy": 6.6,
+            "AvgPlatSale": 9.8,
+            "AvgProfitMargin": 3.200000000000001
+        }
+    },
+    "volt_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 66,
+            "MinPlatSale": 67,
+            "MinProfitMargin": 1,
+            "AvgPlatBuy": 59.6,
+            "AvgPlatSale": 68.8,
+            "AvgProfitMargin": 9.199999999999996
+        }
+    },
+    "secura_lecta": {
+        "PlatStats": {
+            "MinPlatBuy": 25,
+            "MinPlatSale": 40,
+            "MinProfitMargin": 15,
+            "AvgPlatBuy": 25.0,
+            "AvgPlatSale": 52.0,
+            "AvgProfitMargin": 27.0
+        }
+    },
+    "sicarus_prime_barrel": {
+        "PlatStats": {
+            "MinPlatBuy": 5,
+            "MinPlatSale": 11,
+            "MinProfitMargin": 6,
+            "AvgPlatBuy": 3.6666666666666665,
+            "AvgPlatSale": 12.4,
+            "AvgProfitMargin": 8.733333333333334
+        }
+    },
+    "tigris_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 30,
+            "MinPlatSale": 35,
+            "MinProfitMargin": 5,
+            "AvgPlatBuy": 28.333333333333332,
+            "AvgPlatSale": 39.4,
+            "AvgProfitMargin": 11.066666666666666
+        }
+    },
+    "sicarus_prime_receiver": {
+        "PlatStats": {
+            "MinPlatBuy": 25,
+            "MinPlatSale": 39,
+            "MinProfitMargin": 14,
+            "AvgPlatBuy": 18.75,
+            "AvgPlatSale": 42.6,
+            "AvgProfitMargin": 23.85
+        }
+    },
+    "mag_prime_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 17,
+            "MinPlatSale": 30,
+            "MinProfitMargin": 13,
+            "AvgPlatBuy": 14.6,
+            "AvgPlatSale": 34.0,
+            "AvgProfitMargin": 19.4
+        }
+    },
+    "helios_prime_cerebrum": {
+        "PlatStats": {
+            "MinPlatBuy": 25,
+            "MinPlatSale": 35,
+            "MinProfitMargin": 10,
+            "AvgPlatBuy": 19.2,
+            "AvgPlatSale": 38.0,
+            "AvgProfitMargin": 18.8
+        }
+    },
+    "bladed_rounds": {
+        "PlatStats": {
+            "MinPlatBuy": 5,
+            "MinPlatSale": 14,
+            "MinProfitMargin": 9,
+            "AvgPlatBuy": 4.0,
+            "AvgPlatSale": 18.4,
+            "AvgProfitMargin": 14.399999999999999
+        }
+    },
+    "steel_charge": {
+        "PlatStats": {
+            "MinPlatBuy": 5,
+            "MinPlatSale": 19,
+            "MinProfitMargin": 14,
+            "AvgPlatBuy": 5.0,
+            "AvgPlatSale": 19.2,
+            "AvgProfitMargin": 14.2
+        }
+    },
+    "sancti_magistar": {
+        "PlatStats": {
+            "MinPlatBuy": 25,
+            "MinPlatSale": 34,
+            "MinProfitMargin": 9,
+            "AvgPlatBuy": 19.6,
+            "AvgPlatSale": 36.8,
+            "AvgProfitMargin": 17.199999999999996
+        }
+    },
+    "prisma_grinlok": {
+        "PlatStats": {
+            "MinPlatBuy": 45,
+            "MinPlatSale": 60,
+            "MinProfitMargin": 15,
+            "AvgPlatBuy": 30.0,
+            "AvgPlatSale": 61.0,
+            "AvgProfitMargin": 31.0
+        }
+    },
+    "stradavar_prime_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 7,
+            "MinPlatSale": 9,
+            "MinProfitMargin": 2,
+            "AvgPlatBuy": 5.333333333333333,
+            "AvgPlatSale": 11.4,
+            "AvgProfitMargin": 6.066666666666667
+        }
+    },
+    "titania_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 65,
+            "MinPlatSale": 74,
+            "MinProfitMargin": 9,
+            "AvgPlatBuy": 61.2,
+            "AvgPlatSale": 74.8,
+            "AvgProfitMargin": 13.599999999999994
+        }
+    },
+    "ballista_measure": {
+        "PlatStats": {
+            "MinPlatBuy": 25,
+            "MinPlatSale": 40,
+            "MinProfitMargin": 15,
+            "AvgPlatBuy": 16.5,
+            "AvgPlatSale": 76.0,
+            "AvgProfitMargin": 59.5
+        }
+    },
+    "primed_cleanse_grineer": {
+        "PlatStats": {
+            "MinPlatBuy": 80,
+            "MinPlatSale": 49,
+            "MinProfitMargin": -31,
+            "AvgPlatBuy": 53.75,
+            "AvgPlatSale": 55.4,
+            "AvgProfitMargin": 1.6499999999999986
+        }
+    },
+    "primed_cleanse_infested": {
+        "PlatStats": {
+            "MinPlatBuy": 90,
+            "MinPlatSale": 69,
+            "MinProfitMargin": -21,
+            "AvgPlatBuy": 71.66666666666667,
+            "AvgPlatSale": 71.6,
+            "AvgProfitMargin": -0.06666666666667709
+        }
+    },
+    "primed_cleanse_corrupted": {
+        "PlatStats": {
+            "MinPlatBuy": 50,
+            "MinPlatSale": 50,
+            "MinProfitMargin": 0,
+            "AvgPlatBuy": 46.666666666666664,
+            "AvgPlatSale": 55.4,
+            "AvgProfitMargin": 8.733333333333334
+        }
+    },
+    "valkyr_prime_chassis_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 45,
+            "MinPlatSale": 46,
+            "MinProfitMargin": 1,
+            "AvgPlatBuy": 37.6,
+            "AvgPlatSale": 47.6,
+            "AvgProfitMargin": 10.0
+        }
+    },
+    "primed_cryo_rounds": {
+        "PlatStats": {
+            "MinPlatBuy": 100,
+            "MinPlatSale": 40,
+            "MinProfitMargin": -60,
+            "AvgPlatBuy": 73.0,
+            "AvgPlatSale": 45.4,
+            "AvgProfitMargin": -27.6
+        }
+    },
+    "condition_overload": {
+        "PlatStats": {
+            "MinPlatBuy": 4,
+            "MinPlatSale": 5,
+            "MinProfitMargin": 1,
+            "AvgPlatBuy": 3.0,
+            "AvgPlatSale": 7.0,
+            "AvgProfitMargin": 4.0
+        }
+    },
+    "wyrm_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 70,
+            "MinPlatSale": 78,
+            "MinProfitMargin": 8,
+            "AvgPlatBuy": 60.6,
+            "AvgPlatSale": 78.8,
+            "AvgProfitMargin": 18.199999999999996
+        }
+    },
+    "volt_prime_systems_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 9,
+            "MinPlatSale": 17,
+            "MinProfitMargin": 8,
+            "AvgPlatBuy": 7.0,
+            "AvgPlatSale": 19.4,
+            "AvgProfitMargin": 12.399999999999999
+        }
+    },
+    "primed_animal_instinct": {
+        "PlatStats": {
+            "MinPlatBuy": 80,
+            "MinPlatSale": 40,
+            "MinProfitMargin": -40,
+            "AvgPlatBuy": 80.0,
+            "AvgPlatSale": 40.0,
+            "AvgProfitMargin": -40.0
+        }
+    },
+    "glaive_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 70,
+            "MinPlatSale": 70,
+            "MinProfitMargin": 0,
+            "AvgPlatBuy": 58.0,
+            "AvgPlatSale": 73.6,
+            "AvgProfitMargin": 15.599999999999994
+        }
+    },
+    "scindo_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 22,
+            "MinPlatSale": 30,
+            "MinProfitMargin": 8,
+            "AvgPlatBuy": 17.8,
+            "AvgPlatSale": 32.0,
+            "AvgProfitMargin": 14.2
+        }
+    },
+    "telos_boltace": {
+        "PlatStats": {
+            "MinPlatBuy": 15,
+            "MinPlatSale": 30,
+            "MinProfitMargin": 15,
+            "AvgPlatBuy": 13.0,
+            "AvgPlatSale": 56.0,
+            "AvgProfitMargin": 43.0
+        }
+    },
+    "latron_prime_receiver": {
+        "PlatStats": {
+            "MinPlatBuy": 8,
+            "MinPlatSale": 16,
+            "MinProfitMargin": 8,
+            "AvgPlatBuy": 6.5,
+            "AvgPlatSale": 17.8,
+            "AvgProfitMargin": 11.3
+        }
+    },
+    "latron_prime_stock": {
+        "PlatStats": {
+            "MinPlatBuy": 12,
+            "MinPlatSale": 18,
+            "MinProfitMargin": 6,
+            "AvgPlatBuy": 7.25,
+            "AvgPlatSale": 20.0,
+            "AvgProfitMargin": 12.75
+        }
+    },
+    "akstiletto_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 130,
+            "MinPlatSale": 130,
+            "MinProfitMargin": 0,
+            "AvgPlatBuy": 106.0,
+            "AvgPlatSale": 137.8,
+            "AvgProfitMargin": 31.80000000000001
+        }
+    },
+    "primed_rubedo_lined_barrel": {
+        "PlatStats": {
+            "MinPlatBuy": 70,
+            "MinPlatSale": 40,
+            "MinProfitMargin": -30,
+            "AvgPlatBuy": 70.0,
+            "AvgPlatSale": 40.0,
+            "AvgProfitMargin": -30.0
+        }
+    },
+    "inaros_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 40,
+            "MinPlatSale": 55,
+            "MinProfitMargin": 15,
+            "AvgPlatBuy": 37.5,
+            "AvgPlatSale": 55.2,
+            "AvgProfitMargin": 17.700000000000003
+        }
+    },
+    "inaros_prime_neuroptics_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 32,
+            "MinPlatSale": 39,
+            "MinProfitMargin": 7,
+            "AvgPlatBuy": 21.6,
+            "AvgPlatSale": 39.2,
+            "AvgProfitMargin": 17.6
+        }
+    },
+    "karyst_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 20,
+            "MinPlatSale": 29,
+            "MinProfitMargin": 9,
+            "AvgPlatBuy": 17.666666666666668,
+            "AvgPlatSale": 29.8,
+            "AvgProfitMargin": 12.133333333333333
+        }
+    },
+    "panthera_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 39,
+            "MinPlatSale": 55,
+            "MinProfitMargin": 16,
+            "AvgPlatBuy": 33.2,
+            "AvgPlatSale": 58.8,
+            "AvgProfitMargin": 25.599999999999994
+        }
+    },
+    "panthera_prime_barrel": {
+        "PlatStats": {
+            "MinPlatBuy": 12,
+            "MinPlatSale": 15,
+            "MinProfitMargin": 3,
+            "AvgPlatBuy": 9.25,
+            "AvgPlatSale": 18.6,
+            "AvgProfitMargin": 9.350000000000001
+        }
+    },
+    "panthera_prime_receiver": {
+        "PlatStats": {
+            "MinPlatBuy": 10,
+            "MinPlatSale": 11,
+            "MinProfitMargin": 1,
+            "AvgPlatBuy": 7.666666666666667,
+            "AvgPlatSale": 12.4,
+            "AvgProfitMargin": 4.733333333333333
+        }
+    },
+    "karyst_prime_blade": {
+        "PlatStats": {
+            "MinPlatBuy": 6,
+            "MinPlatSale": 19,
+            "MinProfitMargin": 13,
+            "AvgPlatBuy": 5.666666666666667,
+            "AvgPlatSale": 19.8,
+            "AvgProfitMargin": 14.133333333333333
+        }
+    },
+    "vigilante_supplies": {
+        "PlatStats": {
+            "MinPlatBuy": 10,
+            "MinPlatSale": 13,
+            "MinProfitMargin": 3,
+            "AvgPlatBuy": 9.4,
+            "AvgPlatSale": 14.4,
+            "AvgProfitMargin": 5.0
+        }
+    },
+    "narrow_minded": {
+        "PlatStats": {
+            "MinPlatBuy": 55,
+            "MinPlatSale": 9,
+            "MinProfitMargin": -46,
+            "AvgPlatBuy": 55.0,
+            "AvgPlatSale": 9.0,
+            "AvgProfitMargin": -46.0
+        }
+    },
+    "glaive_prime_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 8,
+            "MinPlatSale": 18,
+            "MinProfitMargin": 10,
+            "AvgPlatBuy": 8.0,
+            "AvgPlatSale": 18.4,
+            "AvgProfitMargin": 10.399999999999999
+        }
+    },
+    "primed_target_cracker": {
+        "PlatStats": {
+            "MinPlatBuy": 110,
+            "MinPlatSale": 50,
+            "MinProfitMargin": -60,
+            "AvgPlatBuy": 84.0,
+            "AvgPlatSale": 55.6,
+            "AvgProfitMargin": -28.4
+        }
+    },
+    "oberon_prime_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 10,
+            "MinPlatSale": 8,
+            "MinProfitMargin": -2,
+            "AvgPlatBuy": 7.25,
+            "AvgPlatSale": 9.2,
+            "AvgProfitMargin": 1.9499999999999993
+        }
+    },
+    "looter": {
+        "PlatStats": {
+            "MinPlatBuy": 20,
+            "MinPlatSale": 48,
+            "MinProfitMargin": 28,
+            "AvgPlatBuy": 16.2,
+            "AvgPlatSale": 52.0,
+            "AvgProfitMargin": 35.8
+        }
+    },
+    "cernos_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 56,
+            "MinPlatSale": 60,
+            "MinProfitMargin": 4,
+            "AvgPlatBuy": 42.8,
+            "AvgPlatSale": 60.0,
+            "AvgProfitMargin": 17.200000000000003
+        }
+    },
+    "valkyr_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 90,
+            "MinPlatSale": 98,
+            "MinProfitMargin": 8,
+            "AvgPlatBuy": 83.8,
+            "AvgPlatSale": 99.6,
+            "AvgProfitMargin": 15.799999999999997
+        }
+    },
+    "imperator_vandal_set": {
+        "PlatStats": {
+            "MinPlatBuy": 31,
+            "MinPlatSale": 45,
+            "MinProfitMargin": 14,
+            "AvgPlatBuy": 31.0,
+            "AvgPlatSale": 71.8,
+            "AvgProfitMargin": 40.8
+        }
+    },
+    "primed_pistol_gambit": {
+        "PlatStats": {
+            "MinPlatBuy": 75,
+            "MinPlatSale": 40,
+            "MinProfitMargin": -35,
+            "AvgPlatBuy": 70.0,
+            "AvgPlatSale": 42.0,
+            "AvgProfitMargin": -28.0
+        }
+    },
+    "saryn_prime_neuroptics_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 10,
+            "MinPlatSale": 15,
+            "MinProfitMargin": 5,
+            "AvgPlatBuy": 8.25,
+            "AvgPlatSale": 17.8,
+            "AvgProfitMargin": 9.55
+        }
+    },
+    "nami_skyla_prime_blade": {
+        "PlatStats": {
+            "MinPlatBuy": 22,
+            "MinPlatSale": 29,
+            "MinProfitMargin": 7,
+            "AvgPlatBuy": 20.0,
+            "AvgPlatSale": 29.6,
+            "AvgProfitMargin": 9.600000000000001
+        }
+    },
+    "boar_prime_receiver": {
+        "PlatStats": {
+            "MinPlatBuy": 14,
+            "MinPlatSale": 12,
+            "MinProfitMargin": -2,
+            "AvgPlatBuy": 8.333333333333334,
+            "AvgPlatSale": 12.6,
+            "AvgProfitMargin": 4.266666666666666
+        }
+    },
+    "boar_prime_stock": {
+        "PlatStats": {
+            "MinPlatBuy": 23,
+            "MinPlatSale": 30,
+            "MinProfitMargin": 7,
+            "AvgPlatBuy": 16.75,
+            "AvgPlatSale": 30.8,
+            "AvgProfitMargin": 14.05
+        }
+    },
+    "akbolto_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 70,
+            "MinPlatSale": 89,
+            "MinProfitMargin": 19,
+            "AvgPlatBuy": 60.4,
+            "AvgPlatSale": 89.8,
+            "AvgProfitMargin": 29.4
+        }
+    },
+    "limbo_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 75,
+            "MinPlatSale": 95,
+            "MinProfitMargin": 20,
+            "AvgPlatBuy": 67.0,
+            "AvgPlatSale": 95.0,
+            "AvgProfitMargin": 28.0
+        }
+    },
+    "high_voltage": {
+        "PlatStats": {
+            "MinPlatBuy": 25,
+            "MinPlatSale": 39,
+            "MinProfitMargin": 14,
+            "AvgPlatBuy": 23.2,
+            "AvgPlatSale": 39.8,
+            "AvgProfitMargin": 16.599999999999998
+        }
+    },
+    "vauban_prime_chassis_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 17,
+            "MinPlatSale": 18,
+            "MinProfitMargin": 1,
+            "AvgPlatBuy": 14.4,
+            "AvgPlatSale": 22.4,
+            "AvgProfitMargin": 7.999999999999998
+        }
+    },
+    "latron_prime_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 27,
+            "MinPlatSale": 33,
+            "MinProfitMargin": 6,
+            "AvgPlatBuy": 20.0,
+            "AvgPlatSale": 33.8,
+            "AvgProfitMargin": 13.799999999999997
+        }
+    },
+    "nikana_prime_hilt": {
+        "PlatStats": {
+            "MinPlatBuy": 25,
+            "MinPlatSale": 35,
+            "MinProfitMargin": 10,
+            "AvgPlatBuy": 10.333333333333334,
+            "AvgPlatSale": 37.2,
+            "AvgProfitMargin": 26.866666666666667
+        }
+    },
+    "nikana_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 61,
+            "MinPlatSale": 80,
+            "MinProfitMargin": 19,
+            "AvgPlatBuy": 58.4,
+            "AvgPlatSale": 82.0,
+            "AvgProfitMargin": 23.6
+        }
+    },
+    "valkyr_prime_systems_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 11,
+            "MinPlatSale": 19,
+            "MinProfitMargin": 8,
+            "AvgPlatBuy": 11.0,
+            "AvgPlatSale": 19.4,
+            "AvgProfitMargin": 8.399999999999999
+        }
+    },
+    "venka_prime_gauntlet": {
+        "PlatStats": {
+            "MinPlatBuy": 20,
+            "MinPlatSale": 23,
+            "MinProfitMargin": 3,
+            "AvgPlatBuy": 16.25,
+            "AvgPlatSale": 26.8,
+            "AvgProfitMargin": 10.55
+        }
+    },
+    "euphona_prime_receiver": {
+        "PlatStats": {
+            "MinPlatBuy": 26,
+            "MinPlatSale": 38,
+            "MinProfitMargin": 12,
+            "AvgPlatBuy": 21.4,
+            "AvgPlatSale": 46.6,
+            "AvgProfitMargin": 25.200000000000003
+        }
+    },
+    "transient_fortitude": {
+        "PlatStats": {
+            "MinPlatBuy": 55,
+            "MinPlatSale": 10,
+            "MinProfitMargin": -45,
+            "AvgPlatBuy": 51.2,
+            "AvgPlatSale": 11.2,
+            "AvgProfitMargin": -40.0
+        }
+    },
+    "spira_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 100,
+            "MinPlatSale": 109,
+            "MinProfitMargin": 9,
+            "AvgPlatBuy": 78.0,
+            "AvgPlatSale": 117.8,
+            "AvgProfitMargin": 39.8
+        }
+    },
+    "nami_skyla_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 92,
+            "MinPlatSale": 105,
+            "MinProfitMargin": 13,
+            "AvgPlatBuy": 58.5,
+            "AvgPlatSale": 109.6,
+            "AvgProfitMargin": 51.099999999999994
+        }
+    },
+    "kronen_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 60,
+            "MinPlatSale": 89,
+            "MinProfitMargin": 29,
+            "AvgPlatBuy": 53.333333333333336,
+            "AvgPlatSale": 91.4,
+            "AvgProfitMargin": 38.06666666666667
+        }
+    },
+    "primed_fever_strike": {
+        "PlatStats": {
+            "MinPlatBuy": 105,
+            "MinPlatSale": 50,
+            "MinProfitMargin": -55,
+            "AvgPlatBuy": 93.0,
+            "AvgPlatSale": 50.0,
+            "AvgProfitMargin": -43.0
+        }
+    },
+    "exodia_contagion": {
+        "PlatStats": {
+            "MinPlatBuy": 40,
+            "MinPlatSale": 10,
+            "MinProfitMargin": -30,
+            "AvgPlatBuy": 35.25,
+            "AvgPlatSale": 11.6,
+            "AvgProfitMargin": -23.65
+        }
+    },
+    "mirage_prime_systems_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 12,
+            "MinPlatSale": 18,
+            "MinProfitMargin": 6,
+            "AvgPlatBuy": 8.8,
+            "AvgPlatSale": 19.6,
+            "AvgProfitMargin": 10.8
+        }
+    },
+    "mirage_prime_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 25,
+            "MinPlatSale": 35,
+            "MinProfitMargin": 10,
+            "AvgPlatBuy": 21.0,
+            "AvgPlatSale": 36.8,
+            "AvgProfitMargin": 15.799999999999997
+        }
+    },
+    "mecha_recharge": {
+        "PlatStats": {
+            "MinPlatBuy": 7,
+            "MinPlatSale": 15,
+            "MinProfitMargin": 8,
+            "AvgPlatBuy": 4.0,
+            "AvgPlatSale": 16.6,
+            "AvgProfitMargin": 12.600000000000001
+        }
+    },
+    "tipedo_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 51,
+            "MinPlatSale": 59,
+            "MinProfitMargin": 8,
+            "AvgPlatBuy": 39.25,
+            "AvgPlatSale": 63.4,
+            "AvgProfitMargin": 24.15
+        }
+    },
+    "atlas_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 53,
+            "MinPlatSale": 68,
+            "MinProfitMargin": 15,
+            "AvgPlatBuy": 51.2,
+            "AvgPlatSale": 69.0,
+            "AvgProfitMargin": 17.799999999999997
+        }
+    },
+    "tekko_prime_blade": {
+        "PlatStats": {
+            "MinPlatBuy": 16,
+            "MinPlatSale": 24,
+            "MinProfitMargin": 8,
+            "AvgPlatBuy": 15.4,
+            "AvgPlatSale": 25.6,
+            "AvgProfitMargin": 10.200000000000001
+        }
+    },
+    "tekko_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 71,
+            "MinPlatSale": 79,
+            "MinProfitMargin": 8,
+            "AvgPlatBuy": 55.666666666666664,
+            "AvgPlatSale": 86.6,
+            "AvgProfitMargin": 30.93333333333333
+        }
+    },
+    "jugulus_spines": {
+        "PlatStats": {
+            "MinPlatBuy": 22,
+            "MinPlatSale": 40,
+            "MinProfitMargin": 18,
+            "AvgPlatBuy": 16.0,
+            "AvgPlatSale": 40.0,
+            "AvgProfitMargin": 24.0
+        }
+    },
+    "theorem_infection": {
+        "PlatStats": {
+            "MinPlatBuy": 60,
+            "MinPlatSale": 6,
+            "MinProfitMargin": -54,
+            "AvgPlatBuy": 50.0,
+            "AvgPlatSale": 9.8,
+            "AvgProfitMargin": -40.2
+        }
+    },
+    "arum_spinosa_guard": {
+        "PlatStats": {
+            "MinPlatBuy": 15,
+            "MinPlatSale": 20,
+            "MinProfitMargin": 5,
+            "AvgPlatBuy": 12.333333333333334,
+            "AvgPlatSale": 20.6,
+            "AvgProfitMargin": 8.266666666666667
+        }
+    },
+    "arum_spinosa_set": {
+        "PlatStats": {
+            "MinPlatBuy": 70,
+            "MinPlatSale": 119,
+            "MinProfitMargin": 49,
+            "AvgPlatBuy": 55.0,
+            "AvgPlatSale": 119.6,
+            "AvgProfitMargin": 64.6
+        }
+    },
+    "sporothrix_set": {
+        "PlatStats": {
+            "MinPlatBuy": 70,
+            "MinPlatSale": 118,
+            "MinProfitMargin": 48,
+            "AvgPlatBuy": 57.5,
+            "AvgPlatSale": 122.4,
+            "AvgProfitMargin": 64.9
+        }
+    },
+    "primed_firestorm": {
+        "PlatStats": {
+            "MinPlatBuy": 62,
+            "MinPlatSale": 25,
+            "MinProfitMargin": -37,
+            "AvgPlatBuy": 52.4,
+            "AvgPlatSale": 28.4,
+            "AvgProfitMargin": -24.0
+        }
+    },
+    "primed_fulmination": {
+        "PlatStats": {
+            "MinPlatBuy": 110,
+            "MinPlatSale": 69,
+            "MinProfitMargin": -41,
+            "AvgPlatBuy": 110.0,
+            "AvgPlatSale": 69.8,
+            "AvgProfitMargin": -40.2
+        }
+    },
+    "voidrig_set": {
+        "PlatStats": {
+            "MinPlatBuy": 40,
+            "MinPlatSale": 54,
+            "MinProfitMargin": 14,
+            "AvgPlatBuy": 36.5,
+            "AvgPlatSale": 58.8,
+            "AvgProfitMargin": 22.299999999999997
+        }
+    },
+    "prisma_dual_decurions": {
+        "PlatStats": {
+            "MinPlatBuy": 101,
+            "MinPlatSale": 194,
+            "MinProfitMargin": 93,
+            "AvgPlatBuy": 94.2,
+            "AvgPlatSale": 214.8,
+            "AvgProfitMargin": 120.60000000000001
+        }
+    },
+    "sybaris_prime_stock": {
+        "PlatStats": {
+            "MinPlatBuy": 6,
+            "MinPlatSale": 7,
+            "MinProfitMargin": 1,
+            "AvgPlatBuy": 4.333333333333333,
+            "AvgPlatSale": 7.2,
+            "AvgProfitMargin": 2.866666666666667
+        }
+    },
+    "braton_vandal_receiver": {
+        "PlatStats": {
+            "MinPlatBuy": 6,
+            "MinPlatSale": 8,
+            "MinProfitMargin": 2,
+            "AvgPlatBuy": 4.75,
+            "AvgPlatSale": 10.6,
+            "AvgProfitMargin": 5.85
+        }
+    },
+    "chroma_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 60,
+            "MinPlatSale": 60,
+            "MinProfitMargin": 0,
+            "AvgPlatBuy": 56.2,
+            "AvgPlatSale": 68.0,
+            "AvgProfitMargin": 11.799999999999997
+        }
+    },
+    "rubico_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 37,
+            "MinPlatSale": 45,
+            "MinProfitMargin": 8,
+            "AvgPlatBuy": 30.6,
+            "AvgPlatSale": 48.8,
+            "AvgProfitMargin": 18.199999999999996
+        }
+    },
+    "synth_deconstruct": {
+        "PlatStats": {
+            "MinPlatBuy": 12,
+            "MinPlatSale": 20,
+            "MinProfitMargin": 8,
+            "AvgPlatBuy": 10.4,
+            "AvgPlatSale": 26.4,
+            "AvgProfitMargin": 15.999999999999998
+        }
+    },
+    "banshee_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 47,
+            "MinPlatSale": 65,
+            "MinProfitMargin": 18,
+            "AvgPlatBuy": 42.666666666666664,
+            "AvgPlatSale": 67.8,
+            "AvgProfitMargin": 25.133333333333333
+        }
+    },
+    "vauban_prime_set": {
+        "PlatStats": {
+            "MinPlatBuy": 118,
+            "MinPlatSale": 130,
+            "MinProfitMargin": 12,
+            "AvgPlatBuy": 116.0,
+            "AvgPlatSale": 132.0,
+            "AvgProfitMargin": 16.0
+        }
+    },
+    "vauban_prime_systems_blueprint": {
+        "PlatStats": {
+            "MinPlatBuy": 34,
+            "MinPlatSale": 40,
+            "MinProfitMargin": 6,
+            "AvgPlatBuy": 25.0,
+            "AvgPlatSale": 43.2,
+            "AvgProfitMargin": 18.200000000000003
+        }
+    }
+}
