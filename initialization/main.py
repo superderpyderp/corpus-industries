@@ -16,6 +16,7 @@ def load_json(path: str):
        return json.load(file)
 
 async def CreatingCache():
+    print("this Ran")
     tags = ["arcane_enhancement","rare","mod","prime","set","blueprint","weapon","augment","legendary"]
     Chosen_list = {}
     url= BASE_URL +"items"
@@ -25,7 +26,7 @@ async def CreatingCache():
         for tag in Item["tags"]:
             if tag in tags:
                 if not(Item["slug"] in Chosen_list):
-                    Chosen_list[Item["slug"]]["id"] = Item["id"]        
+                    Chosen_list[Item["slug"]]= data.index(Item)     
                     break
     return Chosen_list
 
@@ -42,11 +43,12 @@ async def volume_check():
             time.sleep(0.2)
         data = response.json()["data"]
         ingame_orders = [Order for Order in data if Order["user"]["status"] == "ingame"]
+       
         if sum(1 for Order in ingame_orders if Order["type"] == "buy") >= 3 and sum(1 for Order in ingame_orders if Order["type"] == "sell") >= 5:
-            print(Chosen_List[Chosen_Item])
-            filtered_list[Chosen_Item] = Chosen_Item["id"]
+            filtered_list[Chosen_Item] = Chosen_List[Chosen_Item]
             save_json(filtered_list,"flipable_items.json")
             continue
+        
     session.close() 
     return filtered_list
 
@@ -80,7 +82,7 @@ async def PlatStats():
         AvgPlatProfit = AvgPlatSale-AvgPlatBuy
 
         InfoList[Item] = {}
-        InfoList[Item]["Id"] = FullList[Item]["id"] 
+        InfoList[Item]["Id"] = FullList[FlipableList[Item]]["id"] 
         InfoList[Item]["PlatStats"] = {
             "MinPlatBuy":MinPlatBuy,
             "MinPlatSale":MinPlatSale, 
@@ -89,7 +91,7 @@ async def PlatStats():
             "AvgPlatSale": AvgPlatSale, 
             "AvgProfitMargin": AvgPlatProfit
             }
-        InfoList[Item]["Tags"] = {"Tags": FullList[Item]["tags"]}
+        InfoList[Item]["Tags"] = {"Tags": FullList[FlipableList[Item]]["tags"]}
             
         save_json(InfoList,"plat_stats.json")
     session.close()
