@@ -91,7 +91,7 @@ async def PlatStats():
             "AvgPlatSale": AvgPlatSale, 
             "AvgProfitMargin": AvgPlatProfit
             }
-        InfoList[Item]["Tags"] = {"Tags": FullList[FlipableList[Item]]["tags"]}
+        InfoList[Item]["Tags"] = [FullList[FlipableList[Item]]["tags"]]
             
         save_json(InfoList,"plat_stats.json")
     session.close()
