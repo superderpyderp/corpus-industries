@@ -15,49 +15,94 @@ def load_json(path: str):
     with open(path, "r") as file:
        return json.load(file)
 
-async def CreatingCache():
-    print("this Ran")
-    tags = ["arcane_enhancement","rare","mod","prime","set","blueprint","weapon","augment","legendary"]
-    Chosen_list = {}
-    url= BASE_URL +"items"
+async def grab_market_database():
+    url= f"{BASE_URL}items"
     response =  requests.get(url)
-    data = response.json()["data"]
-    for Item in data:
-        for tag in Item["tags"]:
-            if tag in tags:
-                if not(Item["slug"] in Chosen_list):
-                    Chosen_list[Item["slug"]]= data.index(Item)     
-                    break
-    return Chosen_list
+    data: list[dict] = response.json()["data"]
+    save_json(data,"market_database.json")
 
-async def volume_check():
-    Chosen_List = await CreatingCache()
-    session = requests.Session()
-    filtered_list = {}
-    for Chosen_Item in Chosen_List:
-        # Avoiding rate limits
-        url = BASE_URL + "orders/item/" + Chosen_Item
-        response = session.get(url)
-        while response.status_code != 200:
-            response = session.get(url)
-            time.sleep(0.2)
-        data = response.json()["data"]
-        ingame_orders = [Order for Order in data if Order["user"]["status"] == "ingame"]
-       
-        if sum(1 for Order in ingame_orders if Order["type"] == "buy") >= 3 and sum(1 for Order in ingame_orders if Order["type"] == "sell") >= 5:
-            filtered_list[Chosen_Item] = Chosen_List[Chosen_Item]
-            save_json(filtered_list,"flipable_items.json")
+async def create_cache():
+    tags = ["arcane_enhancement","rare","mod","prime","set","blueprint","weapon","augment","legendary"]
+    chosenList = {}
+    market_database: list[dict] = load_json("market_database.json")
+    for item in market_database:
+        if any(tag in tags for tag in item["tags"]) and item["slug"] not in chosenList:
+            chosenList[item["slug"]]= market_database.index(item)  
             continue
-        
-    session.close() 
-    return filtered_list
+    print("Cache created")
+    save_json(chosenList,"items_of_interest.json")
 
+async def volume_check(orderType: list = ["buy","sell"]):
+    chosenList = load_json("items_of_interest.json")
+    session = requests.Session()
+    useableItems = {}
+    orderThresholds = {
+            "buy":3,"sell":5
+            }
+    for chosenItem in chosenList:
+        url = f"{BASE_URL}orders/item/{chosenItem}"
+        response = rate_check(url, session)
+        itemData = response.json()["data"]
+        passed = True
+        ingameOrders = [order for order in itemData if order["user"]["status"] == "ingame"]
+        for t in orderType:
+            count = sum(1 for order in ingameOrders if order["type"] == t)
+            if count < orderThresholds[t]:
+                passed = False
+                break
+        if passed:
+            useableItems[chosenItem] = chosenList[chosenItem]
+    save_json(useableItems, "useable_items.json")
+    session.close()
+    print("useable list complete")
+    return useableItems
+
+        
+async def plat_stats_for_useables():
+    useableList = load_json("useable_items.json")
+    marketDatabase = load_json("market_database.json")
+    infoList = {}
+    session = requests.Session()
+    url = f"{BASE_URL}orders/item/"
+    for item in useableList:
+        result: dict = next((entry for entry in marketDatabase if entry["slug"] == item), None)
+        if result.get("maxRank") != None:
+            response = rate_check(f"{url}{item}/top?rank={result.get("maxRank")}", session)
+        else: 
+            response = rate_check(f"{url}{item}/top", session)
+        itemOrders = response.json()["data"]
+        if len(itemOrders["buy"]) == 0 or len(itemOrders["sell"]) == 0:
+            continue
+
+        MinPlatSale = itemOrders["sell"][0]["platinum"]
+        MaxPlatBuy = itemOrders["buy"][0]["platinum"]
+        MinProfitMargin = MinPlatSale - MaxPlatBuy
+
+        AvgPlatSale = math.floor(sum_of_orders(itemOrders,"sell")/len(itemOrders["sell"]))
+        AvgPlatBuy = math.floor(sum_of_orders(itemOrders,"buy")/len(itemOrders["buy"]))
+        AvgPlatProfit = AvgPlatSale-AvgPlatBuy
+
+        infoList[item] = {}
+        itemSlug = useableList[item]
+        infoList[item]["id"] = marketDatabase[itemSlug]["id"] 
+        infoList[item]["plat_stats"] = {
+            "min_plat_buy":MaxPlatBuy,
+            "min_plat_sale":MinPlatSale, 
+            "min_profit_margin":MinProfitMargin, 
+            "avg_plat_buy": AvgPlatBuy, 
+            "avg_plat_sale": AvgPlatSale, 
+            "avg_profit_margin": AvgPlatProfit
+            }
+        infoList[item]["tags"] = [marketDatabase[itemSlug]["tags"]]
+        print(f"calculated for {item}")
+        save_json(infoList,"plat_stats.json")
+    session.close()
+    return infoList
 
 
 async def PlatStats():
-    FlipableList = load_json("flipable_items.json")
+    FlipableList = await volume_check()
     FullList = load_json("data.json")["data"]
-    
     InfoList = {}
     session = requests.Session()
     url = BASE_URL + "orders/item/" 
@@ -91,7 +136,7 @@ async def PlatStats():
             "AvgPlatSale": AvgPlatSale, 
             "AvgProfitMargin": AvgPlatProfit
             }
-        InfoList[Item]["Tags"] = {"Tags": FullList[FlipableList[Item]]["tags"]}
+        InfoList[Item]["Tags"] = [FullList[FlipableList[Item]]["tags"]]
             
         save_json(InfoList,"plat_stats.json")
     session.close()
@@ -100,10 +145,10 @@ async def PlatStats():
 def sum_of_orders(item_orders: str, order_type: str) -> int:
     return sum(item_orders[order_type][order]["platinum"] for order in range(len(item_orders[order_type])))
 
-def Rate_check(url: str,response: requests.Response, session : requests.Session) -> requests.Response:
+def rate_check(url: str, session : requests.Session) -> requests.Response:
+    response = session.get(url)
     while response.status_code != 200:
         response = session.get(url)
-        print("get yo ahh rated")
         time.sleep(0.2)
     return response
 

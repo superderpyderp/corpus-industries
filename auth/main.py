@@ -1,7 +1,7 @@
 import requests
 import json
 
-def login(user_email: str, user_password: str, platform: str = "pc", language: str = "en"):
+def login(userEmail: str, userPassword: str, platform: str = "pc", language: str = "en"):
     headers = {
         "Content-Type": "application/json; utf-8",
         "Accept": "application/json",
@@ -9,7 +9,7 @@ def login(user_email: str, user_password: str, platform: str = "pc", language: s
         "platform": platform,
         "language": language,
     }
-    content = {"email": user_email, "password": user_password, "auth_type": "header"}
+    content = {"email": userEmail, "password": userPassword, "auth_type": "header"}
     response = requests.post("https://api.warframe.market/v1/auth/signin", data=json.dumps(content), headers=headers)
     if response.status_code != 200:
         return None, None

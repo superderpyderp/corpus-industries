@@ -12,9 +12,7 @@ JWT = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzaWQiOiJNM09pREpoVmdVcllqZHRjY0No
 
 
 async def main():
-    data = load_json("data.json")["data"]
-    for item in data:
-        await place_order(item["id"],JWT,"sell")
+    await plat_stats_for_useables()
 
 if __name__ == "__main__":
     asyncio.run(main())
