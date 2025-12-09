@@ -100,47 +100,77 @@ async def plat_stats_for_useables():
     return infoList
 
 
-async def PlatStats():
-    FlipableList = await volume_check()
-    FullList = load_json("data.json")["data"]
-    InfoList = {}
-    session = requests.Session()
-    url = BASE_URL + "orders/item/" 
-    for Item in FlipableList:
-        result = next((item for item in FullList if item.get("slug") == Item), None)
-        if result.get("maxRank") != None:
-            response = session.get(f"{url}{Item}/top?rank={result.get("maxRank")}")
-            response = Rate_check(f"{url}{Item}/top?rank={result.get("maxRank")}", response, session)
-        else:
-            response = session.get(f"{url}{Item}/top")
-            response = Rate_check(f"{url}{Item}/top", response, session)
+# async def plat_stats():
+#     FlipableList = await volume_check()
+#     FullList = load_json("data.json")["data"]
+#     InfoList = {}
+#     session = requests.Session()
+#     url = BASE_URL + "orders/item/" 
+#     for Item in FlipableList:
+#         result = next((item for item in FullList if item.get("slug") == Item), None)
+#         if result.get("maxRank") != None:
+#             response = session.get(f"{url}{Item}/top?rank={result.get("maxRank")}")
+#             response = Rate_check(f"{url}{Item}/top?rank={result.get("maxRank")}", response, session)
+#         else:
+#             response = session.get(f"{url}{Item}/top")
+#             response = Rate_check(f"{url}{Item}/top", response, session)
         
-        Item_Orders = response.json()["data"]
-        if len(Item_Orders["buy"]) == 0 or len(Item_Orders["sell"]) == 0:
-            continue
+#         Item_Orders = response.json()["data"]
+#         if len(Item_Orders["buy"]) == 0 or len(Item_Orders["sell"]) == 0:
+#             continue
         
-        MinPlatSale = Item_Orders["sell"][0]["platinum"]
-        MinPlatBuy = Item_Orders["buy"][0]["platinum"]
-        MinProfitMargin = MinPlatSale - MinPlatBuy
-        AvgPlatSale = math.floor(sum_of_orders(Item_Orders,"sell")/len(Item_Orders["sell"]))
-        AvgPlatBuy = math.floor(sum_of_orders(Item_Orders,"buy")/len(Item_Orders["buy"]))
-        AvgPlatProfit = AvgPlatSale-AvgPlatBuy
+#         MinPlatSale = Item_Orders["sell"][0]["platinum"]
+#         MinPlatBuy = Item_Orders["buy"][0]["platinum"]
+#         MinProfitMargin = MinPlatSale - MinPlatBuy
+#         AvgPlatSale = math.floor(sum_of_orders(Item_Orders,"sell")/len(Item_Orders["sell"]))
+#         AvgPlatBuy = math.floor(sum_of_orders(Item_Orders,"buy")/len(Item_Orders["buy"]))
+#         AvgPlatProfit = AvgPlatSale-AvgPlatBuy
 
-        InfoList[Item] = {}
-        InfoList[Item]["Id"] = FullList[FlipableList[Item]]["id"] 
-        InfoList[Item]["PlatStats"] = {
-            "MinPlatBuy":MinPlatBuy,
-            "MinPlatSale":MinPlatSale, 
-            "MinProfitMargin":MinProfitMargin, 
-            "AvgPlatBuy": AvgPlatBuy, 
-            "AvgPlatSale": AvgPlatSale, 
-            "AvgProfitMargin": AvgPlatProfit
-            }
-        InfoList[Item]["Tags"] = [FullList[FlipableList[Item]]["tags"]]
+#         InfoList[Item] = {}
+#         InfoList[Item]["Id"] = FullList[FlipableList[Item]]["id"] 
+#         InfoList[Item]["PlatStats"] = {
+#             "MinPlatBuy":MinPlatBuy,
+#             "MinPlatSale":MinPlatSale, 
+#             "MinProfitMargin":MinProfitMargin, 
+#             "AvgPlatBuy": AvgPlatBuy, 
+#             "AvgPlatSale": AvgPlatSale, 
+#             "AvgProfitMargin": AvgPlatProfit
+#             }
+#         InfoList[Item]["Tags"] = [FullList[FlipableList[Item]]["tags"]]
             
-        save_json(InfoList,"plat_stats.json")
-    session.close()
-    return InfoList
+#         save_json(InfoList,"plat_stats.json")
+#     session.close()
+#     return InfoList
+
+async def sort_plat_stats(Dict:dict ) -> list:
+    if len(Dict) <= 1:
+        return Dict
+    def checkValue(ItemData:dict):
+        return ItemData["plat_stats"]["min_profit_margin"]
+    Lower_Sorting_Dict = {}
+    Upper_Sorting_Dict = {}
+    Pivot_Sorting_Dict = {}
+    PivotKey = list(Dict.keys())[int((len(Dict)/2))]
+    pivot = checkValue(Dict[PivotKey])
+    # Lower_Sorting_List = [{Key: Values} for Key, Values in Dict if checkValue(Dict[Key])  < pivot]
+    # Upper_Sorting_List = [{Key: Values} for Key,Values in Dict if checkValue(Dict[Key])  > pivot]
+    # Equal_Sorting_List= [{Key: Values} for Key,Values in Dict if checkValue(Dict[Key])  == pivot]
+    
+    
+    # Fix code, change everything to a dict
+    for Key in Dict:
+        if(checkValue(Dict[Key])< pivot):
+            Upper_Sorting_Dict[Key] = Dict[Key]
+        elif (checkValue(Dict[Key])>pivot):
+            Lower_Sorting_Dict[Key]= Dict[Key]
+        else:
+            Pivot_Sorting_Dict[Key] = Dict[Key]
+    
+    
+    return {**await sort_plat_stats(Lower_Sorting_Dict), **Pivot_Sorting_Dict, **await sort_plat_stats(Upper_Sorting_Dict)}
+    
+    
+
 
 def sum_of_orders(item_orders: str, order_type: str) -> int:
     return sum(item_orders[order_type][order]["platinum"] for order in range(len(item_orders[order_type])))
