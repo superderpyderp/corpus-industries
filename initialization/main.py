@@ -145,13 +145,13 @@ async def plat_stats_for_useables():
 async def sort_plat_stats(Dict:dict ) -> list:
     if len(Dict) <= 1:
         return Dict
-    def checkValue(ItemData:dict):
+    def check_value(ItemData:dict):
         return ItemData["plat_stats"]["min_profit_margin"]
-    Lower_Sorting_Dict = {}
-    Upper_Sorting_Dict = {}
-    Pivot_Sorting_Dict = {}
+    LowerSortingDict = {}
+    UpperSortingDict = {}
+    PivotSortingDict = {}
     PivotKey = list(Dict.keys())[int((len(Dict)/2))]
-    pivot = checkValue(Dict[PivotKey])
+    Pivot = checkValue(Dict[PivotKey])
     # Lower_Sorting_List = [{Key: Values} for Key, Values in Dict if checkValue(Dict[Key])  < pivot]
     # Upper_Sorting_List = [{Key: Values} for Key,Values in Dict if checkValue(Dict[Key])  > pivot]
     # Equal_Sorting_List= [{Key: Values} for Key,Values in Dict if checkValue(Dict[Key])  == pivot]
@@ -159,15 +159,15 @@ async def sort_plat_stats(Dict:dict ) -> list:
     
     # Fix code, change everything to a dict
     for Key in Dict:
-        if(checkValue(Dict[Key])< pivot):
-            Upper_Sorting_Dict[Key] = Dict[Key]
-        elif (checkValue(Dict[Key])>pivot):
-            Lower_Sorting_Dict[Key]= Dict[Key]
+        if(check_value(Dict[Key])< Pivot):
+            UpperSortingDict[Key] = Dict[Key]
+        elif (check_value(Dict[Key])>Pivot):
+            LowerSortingDict[Key]= Dict[Key]
         else:
-            Pivot_Sorting_Dict[Key] = Dict[Key]
+            PivotSortingDict[Key] = Dict[Key]
     
     
-    return {**await sort_plat_stats(Lower_Sorting_Dict), **Pivot_Sorting_Dict, **await sort_plat_stats(Upper_Sorting_Dict)}
+    return {**await sort_plat_stats(LowerSortingDict), **PivotSortingDict, **await sort_plat_stats(UpperSortingDict)}
     
     
 
